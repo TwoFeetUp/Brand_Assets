@@ -1,0 +1,61 @@
+{
+  "palette": {
+    "primary": {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "hsl": "0, 0%, 0%",
+      "name": "Primary"
+    },
+    "secondary": {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "hsl": "0, 0%, 0%",
+      "name": "Secondary"
+    },
+    "accent": {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "hsl": "0, 0%, 0%",
+      "name": "Accent"
+    },
+    "background": {
+      "hex": "#ffffff",
+      "rgb": "255, 255, 255",
+      "hsl": "0, 0%, 100%",
+      "name": "Background"
+    },
+    "text": {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "hsl": "0, 0%, 0%",
+      "name": "Text"
+    }
+  },
+  "usage": {
+    "buttons": {
+      "background": "primary",
+      "text": "background",
+      "hover": "accent"
+    },
+    "links": {
+      "default": "primary",
+      "hover": "accent",
+      "visited": "secondary"
+    },
+    "headings": "text",
+    "body": "text",
+    "backgrounds": {
+      "page": "background",
+      "card": "background",
+      "footer": "secondary"
+    }
+  },
+  "gradients": {
+    "primary": {
+      "type": "linear",
+      "direction": "135deg",
+      "stops": ["primary", "accent"],
+      "css": "linear-gradient(135deg, #000000 0%, #000000 100%)"
+    }
+  }
+}

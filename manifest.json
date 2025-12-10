@@ -1,0 +1,217 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2024-12-10",
+  "baseUrl": "https://twofeetup.github.io/brand",
+  "brand": {
+    "name": "TwoFeetUp",
+    "tagline": "",
+    "website": "https://twofeetup.com"
+  },
+  "colors": {
+    "primary": "#000000",
+    "secondary": "#000000",
+    "accent": "#000000",
+    "background": "#ffffff",
+    "text": "#000000"
+  },
+  "fonts": {
+    "primary": {
+      "name": "",
+      "weights": [400, 500, 700],
+      "files": []
+    }
+  },
+  "logos": {
+    "primary": {
+      "path": "/logos/TwoFeetUp_Full_Logo_for_bright_backgrounds.png",
+      "width": 7681,
+      "height": 1100,
+      "usage": "Volledig logo voor lichte achtergronden"
+    },
+    "primaryDark": {
+      "path": "/logos/TwoFeetUp_Full_Logo_Diapositief_for_Dark_backgrounds.png",
+      "width": 7681,
+      "height": 1100,
+      "usage": "Volledig logo (diapositief) voor donkere achtergronden"
+    },
+    "primaryWhite": {
+      "path": "/logos/TwoFeetUp_Full_Logo_Diapositief_Wit_For_dark_background.png",
+      "width": 7681,
+      "height": 1100,
+      "usage": "Volledig logo in wit voor donkere achtergronden"
+    },
+    "icon": {
+      "path": "/logos/TwoFeetUp_Beeldmerk.svg",
+      "width": 500,
+      "height": 405,
+      "usage": "Beeldmerk (SVG) voor favicon en kleine formaten"
+    },
+    "iconBright": {
+      "path": "/logos/TwoFeetUp_Beeldmerk_for_bright_background.png",
+      "width": 2001,
+      "height": 1621,
+      "usage": "Beeldmerk voor lichte achtergronden"
+    },
+    "iconDark": {
+      "path": "/logos/TwoFeetUp_Beeldmerk_Diapositief_for_dark_brackground.png",
+      "width": 2001,
+      "height": 1621,
+      "usage": "Beeldmerk (diapositief) voor donkere achtergronden"
+    },
+    "iconGradient": {
+      "path": "/logos/TwoFeetUp_Beeldmerk_Ascent_with_gradient_background.png",
+      "width": 2001,
+      "height": 2001,
+      "usage": "Beeldmerk met gradient achtergrond (Ascent)"
+    },
+    "iconWhiteBackground": {
+      "path": "/logos/TwoFeetUp_Beeldmerk_Licht_with_white_background.png",
+      "width": 2001,
+      "height": 2001,
+      "usage": "Beeldmerk met witte achtergrond"
+    },
+    "iconDarkBackground": {
+      "path": "/logos/TwoFeetUp_Beeldmerk_Donker_with_dark_purple_background.png",
+      "width": 2001,
+      "height": 2001,
+      "usage": "Beeldmerk met donkerpaarse achtergrond"
+    }
+  },
+  "images": {
+    "backgrounds": [],
+    "icons": [],
+    "team": [],
+    "misc": [],
+    "hackathon": [
+      {
+        "path": "/images/hackathon/IMG_0192.jpeg",
+        "width": 1179,
+        "height": 765,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/IMG_0198.jpeg",
+        "width": 4032,
+        "height": 3024,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/IMG_0199.jpeg",
+        "width": 4032,
+        "height": 3024,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/IMG_0200.jpeg",
+        "width": 8064,
+        "height": 6048,
+        "description": "Hackathon foto (hoge resolutie)"
+      },
+      {
+        "path": "/images/hackathon/IMG_0201.jpeg",
+        "width": 8064,
+        "height": 6048,
+        "description": "Hackathon foto (hoge resolutie)"
+      },
+      {
+        "path": "/images/hackathon/IMG_0204.jpeg",
+        "width": 9462,
+        "height": 3894,
+        "description": "Hackathon panorama foto"
+      },
+      {
+        "path": "/images/hackathon/IMG_0211.jpeg",
+        "width": 4565,
+        "height": 4395,
+        "description": "Hackathon foto (vierkant)"
+      },
+      {
+        "path": "/images/hackathon/1B957A72-2E19-4FC2-9451-F70549C92C75_1_105_c.jpeg",
+        "width": 1024,
+        "height": 768,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/22651327-C2E1-4ED7-9F81-58E53A7537CB_1_105_c.jpeg",
+        "width": 1024,
+        "height": 768,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/36F1C3E2-2703-435C-A56F-C2271592ED2C_1_105_c.jpeg",
+        "width": 1024,
+        "height": 768,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/395602D0-357E-411E-A228-5835329210C7_1_105_c.jpeg",
+        "width": 1182,
+        "height": 665,
+        "description": "Hackathon foto (landscape)"
+      },
+      {
+        "path": "/images/hackathon/3DFA9E92-1772-4FB3-BFA7-85B58E9360EF_1_102_a.jpeg",
+        "width": 2134,
+        "height": 1474,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/543DD26D-5B4A-49F1-88FB-B11E897C012B_1_105_c.jpeg",
+        "width": 1182,
+        "height": 665,
+        "description": "Hackathon foto (landscape)"
+      },
+      {
+        "path": "/images/hackathon/672CECA2-F293-4519-8784-50EFED1A9C29_1_105_c.jpeg",
+        "width": 768,
+        "height": 1024,
+        "description": "Hackathon foto (portrait)"
+      },
+      {
+        "path": "/images/hackathon/70CFBC57-69C8-4FFD-BBDF-02DB8F46B41B_1_105_c.jpeg",
+        "width": 1138,
+        "height": 690,
+        "description": "Hackathon foto (landscape)"
+      },
+      {
+        "path": "/images/hackathon/B271AD7D-2A47-4CDD-BEF4-D2FBD981361D_1_105_c.jpeg",
+        "width": 665,
+        "height": 1182,
+        "description": "Hackathon foto (portrait)"
+      },
+      {
+        "path": "/images/hackathon/C10FE0EA-9078-4B0D-9158-A3367D26D6C4_1_105_c.jpeg",
+        "width": 1024,
+        "height": 768,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/E03DFD14-7FD4-43ED-9AA1-9D32C991F02D_1_105_c.jpeg",
+        "width": 1024,
+        "height": 768,
+        "description": "Hackathon foto"
+      },
+      {
+        "path": "/images/hackathon/E4963EA9-1CF0-41E4-A751-4E7A22CA1032_1_105_c.jpeg",
+        "width": 1188,
+        "height": 660,
+        "description": "Hackathon foto (landscape)"
+      },
+      {
+        "path": "/images/hackathon/E57A8CF1-C577-4CA4-9273-EB43DC241DEF_1_105_c.jpeg",
+        "width": 1182,
+        "height": 665,
+        "description": "Hackathon foto (landscape)"
+      }
+    ]
+  },
+  "videos": [
+    {
+      "path": "/videos/IMG_0205.mov",
+      "width": 1080,
+      "height": 1920,
+      "duration": 8,
+      "description": "Hackathon video (portrait)"
+    }
+  ]
+}
