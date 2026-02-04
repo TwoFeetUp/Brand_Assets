@@ -78,9 +78,105 @@
     }
   },
   "images": {
+    "employees": [
+      {
+        "path": "/images/employees/Fahim.png",
+        "width": 500,
+        "height": 500,
+        "name": "Fahim",
+        "description": "Employee profile picture"
+      },
+      {
+        "path": "/images/employees/Ingrid.png",
+        "width": 500,
+        "height": 500,
+        "name": "Ingrid",
+        "description": "Employee profile picture"
+      },
+      {
+        "path": "/images/employees/Leonie.png",
+        "width": 500,
+        "height": 500,
+        "name": "Leonie",
+        "description": "Employee profile picture"
+      },
+      {
+        "path": "/images/employees/Lex.png",
+        "width": 500,
+        "height": 500,
+        "name": "Lex",
+        "description": "Employee profile picture"
+      },
+      {
+        "path": "/images/employees/Sjoerd.png",
+        "width": 500,
+        "height": 500,
+        "name": "Sjoerd",
+        "description": "Employee profile picture"
+      },
+      {
+        "path": "/images/employees/Thomas.png",
+        "width": 500,
+        "height": 500,
+        "name": "Thomas",
+        "description": "Employee profile picture"
+      },
+      {
+        "path": "/images/employees/Wouter.png",
+        "width": 500,
+        "height": 500,
+        "name": "Wouter",
+        "description": "Employee profile picture"
+      }
+    ],
+    "digitalEmployees": [
+      {
+        "path": "/images/digital employees/AI colleague Alex.png",
+        "width": 1563,
+        "height": 1563,
+        "name": "Alex",
+        "description": "AI colleague profile picture"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Charlie.png",
+        "width": 1563,
+        "height": 1563,
+        "name": "Charlie",
+        "description": "AI colleague profile picture"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Max.png",
+        "width": 1563,
+        "height": 1563,
+        "name": "Max",
+        "description": "AI colleague profile picture"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Sam.png",
+        "width": 1563,
+        "height": 1563,
+        "name": "Sam",
+        "description": "AI colleague profile picture"
+      }
+    ],
+    "partners": [
+      {
+        "path": "/images/partner companies/Beeckestijn business school.png",
+        "width": 500,
+        "height": 500,
+        "name": "Beeckestijn Business School",
+        "description": "Partner company logo"
+      },
+      {
+        "path": "/images/partner companies/Scaleup Company.png",
+        "width": 610,
+        "height": 217,
+        "name": "Scaleup Company",
+        "description": "Partner company logo"
+      }
+    ],
     "backgrounds": [],
     "icons": [],
-    "team": [],
     "misc": [],
     "hackathon": [
       {
