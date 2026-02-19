@@ -157,6 +157,27 @@
         "height": 1563,
         "name": "Sam",
         "description": "AI colleague profile picture"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Custom 1.png",
+        "width": 1024,
+        "height": 1024,
+        "name": "Custom 1",
+        "description": "AI colleague profile picture"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Custom 2.png",
+        "width": 1024,
+        "height": 1024,
+        "name": "Custom 2",
+        "description": "AI colleague profile picture"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Custom 3.png",
+        "width": 1024,
+        "height": 1024,
+        "name": "Custom 3",
+        "description": "AI colleague profile picture"
       }
     ],
     "partners": [
