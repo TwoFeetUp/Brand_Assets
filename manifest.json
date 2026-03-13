@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2024-12-10",
+  "lastUpdated": "2026-03-13",
   "baseUrl": "https://twofeetup.github.io/brand",
   "brand": {
     "name": "TwoFeetUp",
@@ -194,6 +194,22 @@
         "height": 217,
         "name": "Scaleup Company",
         "description": "Partner company logo"
+      }
+    ],
+    "office": [
+      {
+        "path": "/images/office/TwoFeetUp_Office_VanDerValk_Summer.png",
+        "width": 1408,
+        "height": 1024,
+        "name": "Office Summer",
+        "description": "TwoFeetUp kantoorlocatie Van der Valk A1 Amersfoort, 4e verdieping. Zomerversie met logo, pijl en locatie-annotatie. AI-gegenereerd op basis van winterfoto."
+      },
+      {
+        "path": "/images/office/TwoFeetUp_Office_VanDerValk_Winter.png",
+        "width": 1408,
+        "height": 1024,
+        "name": "Office Winter",
+        "description": "TwoFeetUp kantoorlocatie Van der Valk A1 Amersfoort, 4e verdieping. Originele winterfoto met logo, pijl en locatie-annotatie."
       }
     ],
     "backgrounds": [],
