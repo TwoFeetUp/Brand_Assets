@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-03-13",
+  "lastUpdated": "2026-03-19",
   "baseUrl": "https://twofeetup.github.io/brand",
   "brand": {
     "name": "TwoFeetUp",
@@ -210,6 +210,29 @@
         "height": 1024,
         "name": "Office Winter",
         "description": "TwoFeetUp kantoorlocatie Van der Valk A1 Amersfoort, 4e verdieping. Originele winterfoto met logo, pijl en locatie-annotatie."
+      }
+    ],
+    "media": [
+      {
+        "path": "/images/media/Marketingbureau_Eva_Architecture.png",
+        "width": 1456,
+        "height": 816,
+        "name": "Marketingbureau Eva - Architecture",
+        "description": "Make.com multi-agent scenario blueprint van Marketingbureau Eva. 7+ AI agents (Orchestrator, Book Expert, Angle Strategist, Copywriter, Quality Reviewer, Social PR Specialist, Designer) met Campagneleider Chris. Gebouwd door Sjoerd Tiemensma. Gepresenteerd op Jinek door Alexander Klopping."
+      },
+      {
+        "path": "/images/media/Marketingbureau_Eva_Jinek.jpg",
+        "width": 1456,
+        "height": 816,
+        "name": "Marketingbureau Eva - Jinek TV",
+        "description": "Screenshot van Jinek (NPO1, AVROTROS) waar Alexander Klopping de Marketingbureau Eva AI-oplossing live presenteert. Met TwoFeetUp branding overlay: By Sjoerd Tiemensma, AI Engineer @ TwoFeetUp."
+      },
+      {
+        "path": "/images/media/AFAS_Hackathon_Keynote.jpg",
+        "width": 1456,
+        "height": 816,
+        "name": "AFAS Hackathon Keynote",
+        "description": "Wouter van den Bijgaart spreekt voor 127 developers bij AFAS hoofdkantoor in Leusden. Keynote over AI Agents met live demo's op twee grote schermen. Maart 2026."
       }
     ],
     "backgrounds": [],
