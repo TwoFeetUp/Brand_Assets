@@ -210,6 +210,21 @@
         "height": 1024,
         "name": "Custom 3",
         "description": "AI colleague profile picture"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Duco.png",
+        "name": "Duco Declaratie",
+        "description": "AI colleague avatar - Duco Declaratie, de declaratie- en bonnetjes-assistent"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Stella.png",
+        "name": "Stella Story",
+        "description": "AI colleague avatar - Stella Story, meeting search en kennisbank-assistent"
+      },
+      {
+        "path": "/images/digital employees/AI colleague Pieter.png",
+        "name": "Pieter Post",
+        "description": "AI colleague avatar - Pieter Post, de mail- en communicatie-assistent"
       }
     ],
     "partners": [
