@@ -80,53 +80,85 @@
   "images": {
     "employees": [
       {
+        "path": "/images/employees/Wouter.png",
+        "width": 500,
+        "height": 500,
+        "name": "Wouter van den Bijgaart",
+        "role": "Founder & CEO",
+        "status": "active",
+        "description": "Strategische koers, deals, externe relaties, spreker"
+      },
+      {
+        "path": "/images/employees/Thomas.png",
+        "width": 500,
+        "height": 500,
+        "name": "Thomas Damen",
+        "role": "COO",
+        "status": "active",
+        "description": "Operationele aansturing, project delivery, remote vanuit USA"
+      },
+      {
+        "path": "/images/employees/Sjoerd.png",
+        "width": 500,
+        "height": 500,
+        "name": "Sjoerd Tiemensma",
+        "role": "Automation Developer Expert",
+        "status": "active",
+        "description": "Technische architectuur, AI solutions, Make.com en MCPs specialist. 22 uur/week, freelance. Bouwer van Marketingbureau Eva (Jinek)."
+      },
+      {
+        "path": "/images/employees/Leonie.png",
+        "width": 500,
+        "height": 500,
+        "name": "Leonie Forsman",
+        "role": "Digital Productivity Consultant",
+        "status": "active",
+        "description": "Interne systemen, tools, content, websitebeheer, documentatie. 24 uur/week, freelance, remote."
+      },
+      {
+        "path": "/images/employees/Lex.png",
+        "width": 500,
+        "height": 500,
+        "name": "Lex Zwakenberg",
+        "role": "Operations & Office",
+        "status": "active",
+        "description": "Kantoor- en officemanagement, operationele ondersteuning"
+      },
+      {
+        "path": "/images/employees/Roel.png",
+        "width": 500,
+        "height": 500,
+        "name": "Roel Winter",
+        "role": "AI Consultant",
+        "status": "active",
+        "description": "AI consultant, sessies en projecten. Sinds maart 2026."
+      },
+      {
         "path": "/images/employees/Fahim.png",
         "width": 500,
         "height": 500,
         "name": "Fahim",
-        "description": "Employee profile picture"
+        "role": "AI Developer",
+        "status": "temporarily_inactive",
+        "description": "AI project componenten, implementatie. Tijdelijk afwezig (stage-opdracht elders). Komt hopelijk terug."
+      },
+      {
+        "path": "/images/employees/Jay.png",
+        "width": 500,
+        "height": 500,
+        "name": "Jay van Horik",
+        "role": "Stagiair",
+        "status": "active",
+        "description": "Stage sinds februari 2026. Hackathon automation project."
       },
       {
         "path": "/images/employees/Ingrid.png",
         "width": 500,
         "height": 500,
         "name": "Ingrid",
-        "description": "Employee profile picture"
-      },
-      {
-        "path": "/images/employees/Leonie.png",
-        "width": 500,
-        "height": 500,
-        "name": "Leonie",
-        "description": "Employee profile picture"
-      },
-      {
-        "path": "/images/employees/Lex.png",
-        "width": 500,
-        "height": 500,
-        "name": "Lex",
-        "description": "Employee profile picture"
-      },
-      {
-        "path": "/images/employees/Sjoerd.png",
-        "width": 500,
-        "height": 500,
-        "name": "Sjoerd",
-        "description": "Employee profile picture"
-      },
-      {
-        "path": "/images/employees/Thomas.png",
-        "width": 500,
-        "height": 500,
-        "name": "Thomas",
-        "description": "Employee profile picture"
-      },
-      {
-        "path": "/images/employees/Wouter.png",
-        "width": 500,
-        "height": 500,
-        "name": "Wouter",
-        "description": "Employee profile picture"
+        "role": "Onbekend",
+        "status": "inactive",
+        "description": "Niet meer werkzaam bij TwoFeetUp. Profielfoto bewaard als archief."
       }
     ],
     "digitalEmployees": [
