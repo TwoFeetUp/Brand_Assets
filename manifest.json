@@ -212,19 +212,19 @@
         "description": "AI colleague profile picture"
       },
       {
-        "path": "/images/digital employees/AI colleague Duco.png",
+        "path": "/images/digital employees/AI agent Duco Declaratie.png",
         "name": "Duco Declaratie",
-        "description": "AI colleague avatar - Duco Declaratie, de declaratie- en bonnetjes-assistent"
+        "description": "AI agent avatar - Duco Declaratie, de declaratie- en bonnetjes-assistent"
       },
       {
-        "path": "/images/digital employees/AI colleague Stella.png",
+        "path": "/images/digital employees/AI agent Stella Story.png",
         "name": "Stella Story",
-        "description": "AI colleague avatar - Stella Story, meeting search en kennisbank-assistent"
+        "description": "AI agent avatar - Stella Story, meeting search en kennisbank-assistent"
       },
       {
-        "path": "/images/digital employees/AI colleague Pieter.png",
+        "path": "/images/digital employees/AI agent Pieter Post.png",
         "name": "Pieter Post",
-        "description": "AI colleague avatar - Pieter Post, de mail- en communicatie-assistent"
+        "description": "AI agent avatar - Pieter Post, de mail- en communicatie-assistent"
       }
     ],
     "partners": [
