@@ -75,6 +75,10 @@
       "width": 2001,
       "height": 2001,
       "usage": "Beeldmerk met donkerpaarse achtergrond"
+    },
+    "talkToCRM": {
+      "path": "/logos/TalkToCRM_Icon_Temp.png",
+      "usage": "Tijdelijk logo/icoon voor TalkToCRM product (microfoon + cloud/CRM)"
     }
   },
   "images": {
