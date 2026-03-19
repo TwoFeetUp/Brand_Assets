@@ -240,6 +240,36 @@
         "height": 816,
         "name": "AFAS Hackathon Keynote",
         "description": "Wouter van den Bijgaart spreekt voor 127 developers bij AFAS hoofdkantoor in Leusden. Keynote over AI Agents met live demo's op twee grote schermen. Maart 2026."
+      },
+      {
+        "path": "/images/media/Tegeltje_Beeckestijn_10nov2025.png",
+        "name": "Tegeltje Beeckestijn (10 nov 2025)",
+        "description": "Bedanktegeltje van Beeckestijn Business School, november 2025"
+      },
+      {
+        "path": "/images/media/Tegeltje_OPCW.png",
+        "name": "Tegeltje OPCW",
+        "description": "Bedanktegeltje van OPCW (Organisation for the Prohibition of Chemical Weapons)"
+      },
+      {
+        "path": "/images/media/Tegeltje_Virgil.png",
+        "name": "Tegeltje Virgil",
+        "description": "Bedanktegeltje van Virgil"
+      },
+      {
+        "path": "/images/media/Tegeltje_Beeckestijn.png",
+        "name": "Tegeltje Beeckestijn",
+        "description": "Bedanktegeltje van Beeckestijn Business School"
+      },
+      {
+        "path": "/images/media/Tegeltje_Klepper_en_Klepper.png",
+        "name": "Tegeltje Klepper & Klepper",
+        "description": "Bedanktegeltje van Klepper & Klepper"
+      },
+      {
+        "path": "/images/media/Tegeltje_ScaleUp_Company.png",
+        "name": "Tegeltje ScaleUp Company",
+        "description": "Bedanktegeltje van ScaleUp Company"
       }
     ],
     "backgrounds": [],
