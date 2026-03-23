@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-03-19",
+  "lastUpdated": "2026-03-23",
   "baseUrl": "https://twofeetup.github.io/brand",
   "brand": {
     "name": "TwoFeetUp",
@@ -154,15 +154,6 @@
         "role": "Stagiair",
         "status": "active",
         "description": "Stage sinds februari 2026. Hackathon automation project."
-      },
-      {
-        "path": "/images/employees/Ingrid.png",
-        "width": 500,
-        "height": 500,
-        "name": "Ingrid",
-        "role": "Onbekend",
-        "status": "inactive",
-        "description": "Niet meer werkzaam bij TwoFeetUp. Profielfoto bewaard als archief."
       }
     ],
     "digitalEmployees": [
