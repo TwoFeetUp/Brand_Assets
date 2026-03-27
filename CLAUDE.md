@@ -36,6 +36,23 @@ Centrale mediabibliotheek voor alle TwoFeetUp brand assets: logo's, medewerkersf
 - Bij geautomatiseerde uploads ook: `uploadedAt`
 - `lastUpdated` bijwerken bij elke wijziging
 
+## Pre-commit hook — automatische validatie
+
+De repo bevat een pre-commit hook die commits blokkeert die de regels overtreden.
+
+**Eenmalig activeren (per machine/clone):**
+```bash
+git config core.hooksPath .githooks
+```
+
+De hook controleert automatisch:
+- manifest.json bijgewerkt als er nieuwe mediabestanden worden toegevoegd
+- `edited/` bestanden: snake_case naam (min. 2 woorden), geen cameranamen, alleen .webp
+- `images/external/` bestanden: naam begint met `external_[Naam]_[Organisatie]`
+- `raw/` bestanden: geen UUID-namen
+
+Bij overtreding: commit geblokkeerd met duidelijke foutmelding + fix-instructie.
+
 ## Branch-strategie
 
 - Werk op `jay/foto-upload` — niet direct op `main`
