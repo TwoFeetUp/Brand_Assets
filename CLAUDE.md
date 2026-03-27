@@ -1,5 +1,9 @@
 # Brand Assets — TwoFeetUp
 
+## Public repo
+
+Dit is een **publieke** repository. Alles wat hierin wordt geplaatst is zichtbaar op het internet. Commit nooit gevoelige, vertrouwelijke of privé-informatie.
+
 ## Doel van deze repo
 
 Centrale mediabibliotheek voor alle TwoFeetUp brand assets: logo's, medewerkersfoto's, evenementfoto's, video's en meer. Wordt gebruikt door Stella Story en andere AI-agents via manifest.json.
