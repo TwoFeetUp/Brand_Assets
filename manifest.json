@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-03-23",
+  "lastUpdated": "2026-03-27",
   "baseUrl": "https://twofeetup.github.io/brand",
   "brand": {
     "name": "TwoFeetUp",
@@ -312,6 +312,26 @@
         "path": "/images/media/Tegeltje_ScaleUp_Company.png",
         "name": "Tegeltje ScaleUp Company",
         "description": "Bedanktegeltje van ScaleUp Company"
+      }
+    ],
+    "raw": [
+      {
+        "path": "/raw/250821_AI_Summer_workshop/20250822_101212.jpg",
+        "name": "20250822 101212",
+        "description": "Ruwe foto uit 250821 AI Summer workshop",
+        "uploadedAt": "2026-03-27"
+      },
+      {
+        "path": "/raw/250821_AI_Summer_workshop/20250822_101213.jpg",
+        "name": "20250822 101213",
+        "description": "Ruwe foto uit 250821 AI Summer workshop",
+        "uploadedAt": "2026-03-27"
+      },
+      {
+        "path": "/raw/250821_AI_Summer_workshop/20250822_101845.jpg",
+        "name": "20250822 101845",
+        "description": "Ruwe foto uit 250821 AI Summer workshop",
+        "uploadedAt": "2026-03-27"
       }
     ],
     "backgrounds": [],
