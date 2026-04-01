@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-07",
+  "lastUpdated": "2026-04-09",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -170,6 +170,14 @@
         "status": "active",
         "description": "AI Trainer bij TwoFeetUp.",
         "linkedin": "https://www.linkedin.com/in/wilfred-van-kampen-497b4a7/"
+      }
+    ],
+    "teamPhotos": [
+      {
+        "path": "/images/employees/twofeetup_oprichting_bank_foto.png",
+        "name": "TwoFeetUp oprichting",
+        "description": "Groepsfoto van het TwoFeetUp-team bij de oprichting, gemaakt bij de bank",
+        "uploadedAt": "2026-04-09"
       }
     ],
     "digitalEmployees": [
@@ -398,124 +406,104 @@
     "misc": [],
     "hackathon": [
       {
-        "path": "/images/hackathon/IMG_0192.jpeg",
-        "width": 1179,
-        "height": 765,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_coding_peace_sign.webp",
+        "name": "hackathon coding peace sign",
+        "description": "coding peace sign"
       },
       {
-        "path": "/images/hackathon/IMG_0198.jpeg",
-        "width": 4032,
-        "height": 3024,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_group_laptop_work.webp",
+        "name": "hackathon group laptop work",
+        "description": "group laptop work"
       },
       {
-        "path": "/images/hackathon/IMG_0199.jpeg",
-        "width": 4032,
-        "height": 3024,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_group_watching_presentation.webp",
+        "name": "hackathon group watching presentation",
+        "description": "group watching presentation"
       },
       {
-        "path": "/images/hackathon/IMG_0200.jpeg",
-        "width": 8064,
-        "height": 6048,
-        "description": "Hackathon foto (hoge resolutie)"
+        "path": "/images/hackathon/hackathon_groups_laptop_work.webp",
+        "name": "hackathon groups laptop work",
+        "description": "groups laptop work"
       },
       {
-        "path": "/images/hackathon/IMG_0201.jpeg",
-        "width": 8064,
-        "height": 6048,
-        "description": "Hackathon foto (hoge resolutie)"
+        "path": "/images/hackathon/hackathon_man_explaining_whiteboard.webp",
+        "name": "hackathon man explaining whiteboard",
+        "description": "man explaining whiteboard"
       },
       {
-        "path": "/images/hackathon/IMG_0204.jpeg",
-        "width": 9462,
-        "height": 3894,
-        "description": "Hackathon panorama foto"
+        "path": "/images/hackathon/hackathon_man_presenting_ai_matching.webp",
+        "name": "hackathon man presenting ai matching",
+        "description": "man presenting ai matching"
       },
       {
-        "path": "/images/hackathon/IMG_0211.jpeg",
-        "width": 4565,
-        "height": 4395,
-        "description": "Hackathon foto (vierkant)"
+        "path": "/images/hackathon/hackathon_man_smiling_mug.webp",
+        "name": "hackathon man smiling mug",
+        "description": "man smiling mug"
       },
       {
-        "path": "/images/hackathon/1B957A72-2E19-4FC2-9451-F70549C92C75_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_man_whiteboard_planning.webp",
+        "name": "hackathon man whiteboard planning",
+        "description": "man whiteboard planning"
       },
       {
-        "path": "/images/hackathon/22651327-C2E1-4ED7-9F81-58E53A7537CB_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_people_working_laptops.webp",
+        "name": "hackathon people working laptops",
+        "description": "people working laptops"
       },
       {
-        "path": "/images/hackathon/36F1C3E2-2703-435C-A56F-C2271592ED2C_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_speaker_ai_screen.webp",
+        "name": "hackathon speaker ai screen",
+        "description": "speaker ai screen"
       },
       {
-        "path": "/images/hackathon/395602D0-357E-411E-A228-5835329210C7_1_105_c.jpeg",
-        "width": 1182,
-        "height": 665,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_coding.webp",
+        "name": "hackathon team coding",
+        "description": "team coding"
       },
       {
-        "path": "/images/hackathon/3DFA9E92-1772-4FB3-BFA7-85B58E9360EF_1_102_a.jpeg",
-        "width": 2134,
-        "height": 1474,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_team_coding_laptops.webp",
+        "name": "hackathon team coding laptops",
+        "description": "team coding laptops"
       },
       {
-        "path": "/images/hackathon/543DD26D-5B4A-49F1-88FB-B11E897C012B_1_105_c.jpeg",
-        "width": 1182,
-        "height": 665,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_coding_laptops_2.webp",
+        "name": "hackathon team coding laptops 2",
+        "description": "team coding laptops 2"
       },
       {
-        "path": "/images/hackathon/672CECA2-F293-4519-8784-50EFED1A9C29_1_105_c.jpeg",
-        "width": 768,
-        "height": 1024,
-        "description": "Hackathon foto (portrait)"
+        "path": "/images/hackathon/hackathon_team_coding_laptops_3.webp",
+        "name": "hackathon team coding laptops 3",
+        "description": "team coding laptops 3"
       },
       {
-        "path": "/images/hackathon/70CFBC57-69C8-4FFD-BBDF-02DB8F46B41B_1_105_c.jpeg",
-        "width": 1138,
-        "height": 690,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_desk_smiling.webp",
+        "name": "hackathon team desk smiling",
+        "description": "team desk smiling"
       },
       {
-        "path": "/images/hackathon/B271AD7D-2A47-4CDD-BEF4-D2FBD981361D_1_105_c.jpeg",
-        "width": 665,
-        "height": 1182,
-        "description": "Hackathon foto (portrait)"
+        "path": "/images/hackathon/hackathon_team_focused_coding.webp",
+        "name": "hackathon team focused coding",
+        "description": "team focused coding"
       },
       {
-        "path": "/images/hackathon/C10FE0EA-9078-4B0D-9158-A3367D26D6C4_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_team_focused_coding_2.webp",
+        "name": "hackathon team focused coding 2",
+        "description": "team focused coding 2"
       },
       {
-        "path": "/images/hackathon/E03DFD14-7FD4-43ED-9AA1-9D32C991F02D_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_team_laptops_planning.webp",
+        "name": "hackathon team laptops planning",
+        "description": "team laptops planning"
       },
       {
-        "path": "/images/hackathon/E4963EA9-1CF0-41E4-A751-4E7A22CA1032_1_105_c.jpeg",
-        "width": 1188,
-        "height": 660,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_laptops_working.webp",
+        "name": "hackathon team laptops working",
+        "description": "team laptops working"
       },
       {
-        "path": "/images/hackathon/E57A8CF1-C577-4CA4-9273-EB43DC241DEF_1_105_c.jpeg",
-        "width": 1182,
-        "height": 665,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_selfie_cafe.webp",
+        "name": "hackathon team selfie cafe",
+        "description": "team selfie cafe"
       }
     ]
   },
