@@ -1,8 +1,16 @@
 # Brand Assets — TwoFeetUp
 
-## Public repo
+## ⚠️ Public repo — alle bestanden staan online
 
-Dit is een **publieke** repository. Alles wat hierin wordt geplaatst is zichtbaar op het internet. Commit nooit gevoelige, vertrouwelijke of privé-informatie.
+Dit is een **publieke** repository. Alle bestanden zijn direct zichtbaar en downloadbaar op het internet via GitHub Pages.
+
+**Waarschuwing voor uploaders (mens én AI-agent):**
+- Upload **alleen goedgekeurde content** — alles wat je commit is onmiddellijk publiek
+- **Geen** ongecensureerde, vertrouwelijke of privé-informatie uploaden
+- **Geen** foto's zonder toestemming van afgebeelde personen
+- **Geen** interne documenten, concepten of werk-in-uitvoering
+- **Geen** bestanden met gevoelige metadata (EXIF met locatie, cameragegevens, etc.)
+- Bij twijfel: **niet uploaden** — vraag eerst goedkeuring
 
 ## Doel van deze repo
 
