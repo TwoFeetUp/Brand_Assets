@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-03-27",
+  "lastUpdated": "2026-04-02",
   "baseUrl": "https://twofeetup.github.io/brand",
   "brand": {
     "name": "TwoFeetUp",
@@ -186,24 +186,24 @@
         "description": "AI colleague profile picture"
       },
       {
-        "path": "/images/digital employees/AI colleague Custom 1.png",
+        "path": "/images/digital employees/AI colleague Jordan.png",
         "width": 1024,
         "height": 1024,
-        "name": "Custom 1",
+        "name": "Jordan",
         "description": "AI colleague profile picture"
       },
       {
-        "path": "/images/digital employees/AI colleague Custom 2.png",
+        "path": "/images/digital employees/AI colleague Robin.png",
         "width": 1024,
         "height": 1024,
-        "name": "Custom 2",
+        "name": "Robin",
         "description": "AI colleague profile picture"
       },
       {
-        "path": "/images/digital employees/AI colleague Custom 3.png",
+        "path": "/images/digital employees/AI colleague Extra custom.png",
         "width": 1024,
         "height": 1024,
-        "name": "Custom 3",
+        "name": "Extra custom",
         "description": "AI colleague profile picture"
       },
       {
