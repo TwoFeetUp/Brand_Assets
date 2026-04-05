@@ -214,16 +214,22 @@
       },
       {
         "path": "/images/digital employees/AI agent Duco Declaratie.png",
+        "width": 1000,
+        "height": 1000,
         "name": "Duco Declaratie",
         "description": "AI agent avatar - Duco Declaratie, de declaratie- en bonnetjes-assistent"
       },
       {
         "path": "/images/digital employees/AI agent Stella Story.png",
+        "width": 2000,
+        "height": 2000,
         "name": "Stella Story",
         "description": "AI agent avatar - Stella Story, meeting search en kennisbank-assistent"
       },
       {
         "path": "/images/digital employees/AI agent Pieter Post.png",
+        "width": 800,
+        "height": 800,
         "name": "Pieter Post",
         "description": "AI agent avatar - Pieter Post, de mail- en communicatie-assistent"
       }
@@ -291,31 +297,43 @@
       },
       {
         "path": "/images/media/Tegeltje_Beeckestijn_10nov2025.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje Beeckestijn (10 nov 2025)",
         "description": "Bedanktegeltje van Beeckestijn Business School, november 2025"
       },
       {
         "path": "/images/media/Tegeltje_OPCW.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje OPCW",
         "description": "Bedanktegeltje van OPCW (Organisation for the Prohibition of Chemical Weapons)"
       },
       {
         "path": "/images/media/Tegeltje_Virgil.png",
+        "width": 2250,
+        "height": 2250,
         "name": "Tegeltje Virgil",
         "description": "Bedanktegeltje van Virgil"
       },
       {
         "path": "/images/media/Tegeltje_Beeckestijn.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje Beeckestijn",
         "description": "Bedanktegeltje van Beeckestijn Business School"
       },
       {
         "path": "/images/media/Tegeltje_Klepper_en_Klepper.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje Klepper & Klepper",
         "description": "Bedanktegeltje van Klepper & Klepper"
       },
       {
         "path": "/images/media/Tegeltje_ScaleUp_Company.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje ScaleUp Company",
         "description": "Bedanktegeltje van ScaleUp Company"
       }
@@ -340,6 +358,31 @@
         "uploadedAt": "2026-03-27"
       }
     ],
+    "previews": [
+      {
+        "path": "/images/previews/brand-assets-brainstorm-preview.png",
+        "width": 2048,
+        "height": 2048,
+        "name": "Brand Assets Brainstorm Preview",
+        "description": "Preview image voor Brand Assets brainstorm view met logo overlay"
+      },
+      {
+        "path": "/images/previews/ebike-restwaarde-2026-preview.jpg",
+        "width": 1200,
+        "height": 630,
+        "name": "E-bike Restwaarde 2026 Preview",
+        "description": "OG/social preview image voor e-bike restwaarde calculator 2026"
+      },
+      {
+        "path": "/images/previews/auto-lease-vergelijk-preview.png",
+        "width": 2048,
+        "height": 2048,
+        "name": "Auto Lease Vergelijk Preview",
+        "description": "Preview image voor auto lease vergelijker met logo overlay"
+      }
+    ],
+    "edited": [],
+    "external": [],
     "backgrounds": [],
     "icons": [],
     "misc": [],
