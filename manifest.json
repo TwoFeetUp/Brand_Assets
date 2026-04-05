@@ -1,23 +1,29 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-02",
-  "baseUrl": "https://twofeetup.github.io/brand",
+  "lastUpdated": "2026-04-05",
+  "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
     "tagline": "",
     "website": "https://twofeetup.com"
   },
   "colors": {
-    "primary": "#000000",
-    "secondary": "#000000",
-    "accent": "#000000",
+    "primary": "#414099",
+    "secondary": "#8ed8f8",
+    "accent": "#faa61a",
+    "violet": "#8473b5",
+    "purpleSecondary": "#7a7fbd",
     "background": "#ffffff",
-    "text": "#000000"
+    "text": "#050034",
+    "grey": "#f1f2f2",
+    "dark": "#1a1850",
+    "gradient": "linear-gradient(135deg, #414099 0%, #8ed8f8 100%)"
   },
   "fonts": {
     "primary": {
-      "name": "",
-      "weights": [400, 500, 700],
+      "name": "Nunito",
+      "weights": [300, 400, 700],
+      "source": "https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap",
       "files": []
     }
   },

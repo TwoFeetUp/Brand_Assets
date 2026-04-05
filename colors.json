@@ -1,34 +1,58 @@
 {
   "palette": {
     "primary": {
-      "hex": "#000000",
-      "rgb": "0, 0, 0",
-      "hsl": "0, 0%, 0%",
-      "name": "Primary"
+      "hex": "#414099",
+      "rgb": "65, 64, 153",
+      "hsl": "241, 41%, 43%",
+      "name": "TwoFeetUp Purple"
     },
     "secondary": {
-      "hex": "#000000",
-      "rgb": "0, 0, 0",
-      "hsl": "0, 0%, 0%",
-      "name": "Secondary"
+      "hex": "#8ed8f8",
+      "rgb": "142, 216, 248",
+      "hsl": "198, 88%, 76%",
+      "name": "TwoFeetUp Blue"
     },
     "accent": {
-      "hex": "#000000",
-      "rgb": "0, 0, 0",
-      "hsl": "0, 0%, 0%",
-      "name": "Accent"
+      "hex": "#faa61a",
+      "rgb": "250, 166, 26",
+      "hsl": "37, 96%, 54%",
+      "name": "TwoFeetUp Orange"
+    },
+    "violet": {
+      "hex": "#8473b5",
+      "rgb": "132, 115, 181",
+      "hsl": "255, 30%, 58%",
+      "name": "Violet"
+    },
+    "purpleSecondary": {
+      "hex": "#7a7fbd",
+      "rgb": "122, 127, 189",
+      "hsl": "236, 31%, 61%",
+      "name": "Purple Secondary"
     },
     "background": {
       "hex": "#ffffff",
       "rgb": "255, 255, 255",
       "hsl": "0, 0%, 100%",
-      "name": "Background"
+      "name": "White"
     },
     "text": {
-      "hex": "#000000",
-      "rgb": "0, 0, 0",
-      "hsl": "0, 0%, 0%",
-      "name": "Text"
+      "hex": "#050034",
+      "rgb": "5, 0, 52",
+      "hsl": "246, 100%, 10%",
+      "name": "TwoFeetUp Black"
+    },
+    "grey": {
+      "hex": "#f1f2f2",
+      "rgb": "241, 242, 242",
+      "hsl": "180, 4%, 95%",
+      "name": "TwoFeetUp Grey"
+    },
+    "dark": {
+      "hex": "#1a1850",
+      "rgb": "26, 24, 80",
+      "hsl": "242, 54%, 20%",
+      "name": "Dark Surface"
     }
   },
   "usage": {
@@ -40,22 +64,36 @@
     "links": {
       "default": "primary",
       "hover": "accent",
-      "visited": "secondary"
+      "visited": "violet"
     },
     "headings": "text",
     "body": "text",
     "backgrounds": {
       "page": "background",
       "card": "background",
-      "footer": "secondary"
+      "section": "grey",
+      "footer": "grey",
+      "darkMode": "text",
+      "darkSurface": "dark"
     }
   },
   "gradients": {
-    "primary": {
+    "ascent": {
       "type": "linear",
       "direction": "135deg",
-      "stops": ["primary", "accent"],
-      "css": "linear-gradient(135deg, #000000 0%, #000000 100%)"
+      "stops": ["primary", "secondary"],
+      "css": "linear-gradient(135deg, #414099 0%, #8ed8f8 100%)"
+    },
+    "darkMode": {
+      "type": "linear",
+      "direction": "135deg",
+      "stops": ["dark", "primary"],
+      "css": "linear-gradient(135deg, #1a1850 0%, #414099 100%)"
     }
+  },
+  "contrast": {
+    "orangeOnLight": "FAIL - 2.3:1 ratio, do not use orange text on white/grey backgrounds",
+    "orangeOnDark": "PASS - 7.9:1 ratio on #050034",
+    "orangeOnPurple": "PASS - 4.2:1 ratio on #414099 (large text only)"
   }
 }
