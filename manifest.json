@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-05",
+  "lastUpdated": "2026-04-07",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -160,6 +160,16 @@
         "role": "Stagiair",
         "status": "active",
         "description": "Stage sinds februari 2026. Hackathon automation project."
+      },
+      {
+        "path": "/images/employees/Wilfred.png",
+        "width": 2048,
+        "height": 2048,
+        "name": "Wilfred van Kampen",
+        "role": "AI Trainer",
+        "status": "active",
+        "description": "AI Trainer bij TwoFeetUp.",
+        "linkedin": "https://www.linkedin.com/in/wilfred-van-kampen-497b4a7/"
       }
     ],
     "digitalEmployees": [
