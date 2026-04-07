@@ -163,8 +163,8 @@
       },
       {
         "path": "/images/employees/Wilfred.png",
-        "width": 2048,
-        "height": 2048,
+        "width": 500,
+        "height": 500,
         "name": "Wilfred van Kampen",
         "role": "AI Trainer",
         "status": "active",
