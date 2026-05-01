@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-01",
+  "baseUrl": "https://twofeetup.github.io/Brand_Assets/talktocrm",
+  "brand": {
+    "name": "TalkToCRM",
+    "direction": "Lime Jet",
+    "website": "https://talktocrm.ai",
+    "parentBrand": "TwoFeetUp"
+  },
+  "colors": {
+    "bg": "#ededed",
+    "bgDark": "#050505",
+    "paper": "#ffffff",
+    "ink": "#0a0a0a",
+    "ink2": "#1a1a1c",
+    "lime": "#a3d931",
+    "limeDeep": "#6e9420",
+    "limeSoft": "rgba(163, 217, 49, 0.18)",
+    "red": "#ff5a4f",
+    "redSoft": "rgba(255, 90, 79, 0.14)",
+    "blue": "#007aff",
+    "orange": "#ff9500"
+  },
+  "fonts": {
+    "primary": {
+      "name": "Inter",
+      "weights": [400, 500, 600, 700, 800],
+      "usage": "Primary UI, headings and wordmark",
+      "files": [
+        "/fonts/Inter-400.ttf",
+        "/fonts/Inter-500.ttf",
+        "/fonts/Inter-600.ttf",
+        "/fonts/Inter-700.ttf",
+        "/fonts/Inter-800.ttf"
+      ]
+    },
+    "accent": {
+      "name": "Instrument Serif",
+      "weights": [400],
+      "styles": ["normal", "italic"],
+      "usage": "Editorial accent",
+      "files": [
+        "/fonts/Instrument-Serif-400.ttf",
+        "/fonts/Instrument-Serif-400-Italic.ttf"
+      ]
+    },
+    "mono": {
+      "name": "IBM Plex Mono",
+      "weights": [400, 500, 600],
+      "usage": "Technical labels and code-like UI",
+      "files": [
+        "/fonts/IBM-Plex-Mono-400.ttf",
+        "/fonts/IBM-Plex-Mono-500.ttf",
+        "/fonts/IBM-Plex-Mono-600.ttf"
+      ]
+    },
+    "css": {
+      "path": "/fonts/font-face.css",
+      "source": "/fonts/google-fonts.css"
+    }
+  },
+  "logos": {
+    "primaryDark": {
+      "path": "/logos/svg/logo-horizontal-dark.svg",
+      "width": 1152,
+      "height": 288,
+      "usage": "Primary horizontal logo for dark or jet backgrounds"
+    },
+    "primaryLight": {
+      "path": "/logos/svg/logo-horizontal-light.svg",
+      "width": 1152,
+      "height": 288,
+      "usage": "Primary horizontal logo for white or light grey backgrounds"
+    },
+    "monoInk": {
+      "path": "/logos/svg/logo-horizontal-mono-ink.svg",
+      "width": 1152,
+      "height": 288,
+      "usage": "One-color horizontal logo for light backgrounds"
+    },
+    "monoWhite": {
+      "path": "/logos/svg/logo-horizontal-mono-white.svg",
+      "width": 1152,
+      "height": 288,
+      "usage": "One-color horizontal logo for dark backgrounds"
+    },
+    "wordmarkDark": {
+      "path": "/logos/svg/wordmark-dark.svg",
+      "width": 984,
+      "height": 240,
+      "usage": "Wordmark only for dark backgrounds"
+    },
+    "wordmarkLight": {
+      "path": "/logos/svg/wordmark-light.svg",
+      "width": 984,
+      "height": 240,
+      "usage": "Wordmark only for light backgrounds"
+    },
+    "markDark": {
+      "path": "/logos/svg/mark-dark.svg",
+      "width": 512,
+      "height": 512,
+      "usage": "Transparent mark for dark backgrounds"
+    },
+    "markLight": {
+      "path": "/logos/svg/mark-light.svg",
+      "width": 512,
+      "height": 512,
+      "usage": "Transparent mark for light backgrounds"
+    },
+    "markMonoInk": {
+      "path": "/logos/svg/mark-mono-ink.svg",
+      "width": 512,
+      "height": 512,
+      "usage": "One-color mark for light backgrounds"
+    },
+    "markMonoWhite": {
+      "path": "/logos/svg/mark-mono-white.svg",
+      "width": 512,
+      "height": 512,
+      "usage": "One-color mark for dark backgrounds"
+    },
+    "appIcon": {
+      "path": "/logos/svg/app-icon.svg",
+      "width": 1024,
+      "height": 1024,
+      "usage": "Filled platform app icon with safe area"
+    },
+    "favicon": {
+      "path": "/logos/svg/favicon.svg",
+      "width": 64,
+      "height": 64,
+      "usage": "Simplified favicon SVG"
+    }
+  },
+  "favicons": [
+    { "path": "/logos/png/favicon-16.png", "width": 16, "height": 16 },
+    { "path": "/logos/png/favicon-32.png", "width": 32, "height": 32 },
+    { "path": "/logos/png/favicon-48.png", "width": 48, "height": 48 },
+    { "path": "/logos/png/favicon-64.png", "width": 64, "height": 64 },
+    { "path": "/logos/png/favicon-96.png", "width": 96, "height": 96 },
+    { "path": "/logos/png/favicon-128.png", "width": 128, "height": 128 },
+    { "path": "/logos/png/favicon-256.png", "width": 256, "height": 256 },
+    { "path": "/logos/png/favicon-512.png", "width": 512, "height": 512 }
+  ],
+  "appIcons": [
+    { "path": "/logos/png/apple-touch-icon-180.png", "width": 180, "height": 180 },
+    { "path": "/logos/png/android-chrome-192.png", "width": 192, "height": 192 },
+    { "path": "/logos/png/android-chrome-512.png", "width": 512, "height": 512 },
+    { "path": "/logos/png/app-icon-256.png", "width": 256, "height": 256 },
+    { "path": "/logos/png/app-icon-512.png", "width": 512, "height": 512 },
+    { "path": "/logos/png/app-icon-1024.png", "width": 1024, "height": 1024 }
+  ],
+  "transparentPng": {
+    "markDark": {
+      "path": "/logos/png/mark-dark-512.png",
+      "width": 512,
+      "height": 512
+    },
+    "markLight": {
+      "path": "/logos/png/mark-light-512.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "tokens": {
+    "css": "/tokens/brand-tokens.css",
+    "json": "/tokens/brand-tokens.json"
+  },
+  "docs": {
+    "readme": "/README.md",
+    "design": "/design.md"
+  },
+  "downloads": {
+    "zip": {
+      "path": "/downloads/TalkToCRM-brand-assets-2026-05-01.zip",
+      "description": "Complete TalkToCRM brand assets folder as zip"
+    }
+  }
+}

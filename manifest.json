@@ -1,11 +1,20 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-09",
+  "lastUpdated": "2026-05-01",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
     "tagline": "",
     "website": "https://twofeetup.com"
+  },
+  "products": {
+    "talktocrm": {
+      "name": "TalkToCRM",
+      "website": "https://talktocrm.ai",
+      "basePath": "/talktocrm",
+      "manifest": "/talktocrm/manifest.json",
+      "usage": "Product/sub-brand assets for TalkToCRM"
+    }
   },
   "colors": {
     "primary": "#414099",

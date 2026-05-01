@@ -1,0 +1,29 @@
+{
+  "name": "TalkToCRM Lime Jet",
+  "colors": {
+    "bg": "#ededed",
+    "bgDark": "#050505",
+    "paper": "#ffffff",
+    "ink": "#0a0a0a",
+    "ink2": "#1a1a1c",
+    "lime": "#a3d931",
+    "limeDeep": "#6e9420",
+    "limeSoft": "rgba(163, 217, 49, 0.18)",
+    "red": "#ff5a4f",
+    "redSoft": "rgba(255, 90, 79, 0.14)",
+    "blue": "#007aff",
+    "orange": "#ff9500"
+  },
+  "typography": {
+    "wordmark": {
+      "family": "Inter",
+      "weight": 800,
+      "style": "normal"
+    },
+    "supporting": {
+      "family": "IBM Plex Mono",
+      "weight": 500,
+      "style": "normal"
+    }
+  }
+}

@@ -28,6 +28,7 @@ De `manifest.json` is het centrale register voor **alle** brand assets. Het word
 - **`colors`** — de volledige TwoFeetUp kleurenpalet (primary, secondary, accent, violet, etc.)
 - **`fonts`** — Nunito met weights 300, 400, 700 en Google Fonts source URL
 - **`logos`** — alle logo- en beeldmerkvariaties met pad, afmetingen, en usage
+- **`products`** — product/sub-brand registraties, zoals TalkToCRM, met eigen manifest
 - **`images`** — alle afbeeldingscategorieën (employees, digitalEmployees, partners, office, media, hackathon, previews, raw, edited, external)
 - **`videos`** — video assets met afmetingen en duur
 
@@ -72,6 +73,7 @@ Gedetailleerde kleurenpalet met hex, rgb, hsl per kleur plus:
 
 ### Mappenstructuur
 - `logos/` — alle logo- en beeldmerkvariaties
+- `talktocrm/` — TalkToCRM product/sub-brand assets met eigen `manifest.json`
 - `images/employees/` — profielfoto's TwoFeetUp-medewerkers (500x500px PNG)
 - `images/digital employees/` — AI-agent avatars (let op: directory bevat spaties)
 - `images/office/` — kantoorlocatie foto's

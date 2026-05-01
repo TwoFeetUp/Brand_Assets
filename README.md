@@ -11,6 +11,7 @@ Centrale repository voor alle goedgekeurde TwoFeetUp brand assets.
 - **Video's** - Brand video's
 - **Kleuren** - Kleurenpalet in `colors.json`
 - **Manifest** - Centrale index van alle assets in `manifest.json`
+- **Product brands** - Sub-brand assets, zoals TalkToCRM, onder hun eigen subfolder
 
 ## Structuur
 
@@ -35,6 +36,14 @@ Brand_Assets/
 │   ├── media/              # Pers, keynotes, tegeltjes
 │   ├── office/             # Kantoorlocatie foto's
 │   └── partner companies/  # Logo's van partners
+│
+├── talktocrm/               # TalkToCRM product/sub-brand assets
+│   ├── manifest.json        # Product-specifieke asset index
+│   ├── design.md            # Fonts, colors, sizes en usage
+│   ├── logos/               # SVG en PNG logo/icon/favicon exports
+│   ├── fonts/               # Lokale fontbestanden en licenties
+│   ├── tokens/              # CSS/JSON design tokens
+│   └── downloads/           # Zip-downloads voor handoff
 │
 └── videos/                 # Video bestanden
 ```

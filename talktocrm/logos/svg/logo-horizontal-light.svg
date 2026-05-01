@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="288" viewBox="0 0 384 96" role="img" aria-labelledby="title desc">
+  <title id="title">TalkToCRM horizontal logo for light backgrounds</title>
+  <desc id="desc">Jet TalkToCRM wordmark with deep lime CRM and speech bubble waveform mark.</desc>
+  <g transform="translate(16 16)">
+    <path fill="#0a0a0a" d="M14 6h36a8 8 0 0 1 8 8v26a8 8 0 0 1-8 8H26L14 58V48a8 8 0 0 1-8-8V14a8 8 0 0 1 8-8Z"/>
+    <g fill="#a3d931">
+      <rect x="14" y="22" width="4" height="14" rx="2"/>
+      <rect x="22" y="16" width="4" height="26" rx="2"/>
+      <rect x="30" y="20" width="4" height="18" rx="2"/>
+      <rect x="38" y="14" width="4" height="30" rx="2"/>
+      <rect x="46" y="22" width="4" height="14" rx="2"/>
+    </g>
+  </g>
+  <text x="96" y="65" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-2.2">
+    <tspan fill="#0a0a0a">TalkTo</tspan><tspan fill="#6e9420">CRM</tspan>
+  </text>
+</svg>

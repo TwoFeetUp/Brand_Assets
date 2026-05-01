@@ -1,0 +1,14 @@
+:root {
+  --ttc-bg: #ededed;
+  --ttc-bg-dark: #050505;
+  --ttc-paper: #ffffff;
+  --ttc-ink: #0a0a0a;
+  --ttc-ink-2: #1a1a1c;
+  --ttc-lime: #a3d931;
+  --ttc-lime-deep: #6e9420;
+  --ttc-lime-soft: rgba(163, 217, 49, 0.18);
+  --ttc-red: #ff5a4f;
+  --ttc-red-soft: rgba(255, 90, 79, 0.14);
+  --ttc-blue: #007aff;
+  --ttc-orange: #ff9500;
+}
