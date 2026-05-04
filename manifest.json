@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-01",
+  "lastUpdated": "2026-05-04",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -31,7 +31,11 @@
   "fonts": {
     "primary": {
       "name": "Nunito",
-      "weights": [300, 400, 700],
+      "weights": [
+        300,
+        400,
+        700
+      ],
       "source": "https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap",
       "files": []
     }
@@ -513,6 +517,152 @@
         "path": "/images/hackathon/hackathon_team_selfie_cafe.webp",
         "name": "hackathon team selfie cafe",
         "description": "team selfie cafe"
+      }
+    ],
+    "frameworks": [
+      {
+        "path": "/images/frameworks/framework_three_destinations_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The 3 destinations of AI adoption",
+        "description": "AI adoption strategy framework: AI Literate (baseline) → AI Ready (acceleration) → AI First (transformation). Three deliberate destinations with keywords per tier. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_three_destinations_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De 3 bestemmingen van AI-adoptie",
+        "description": "AI adoption strategy framework: AI Literate (baseline) → AI Ready (acceleration) → AI First (transformation). Three deliberate destinations with keywords per tier. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_maslow_pyramid_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The Maslow pyramid for AI adoption",
+        "description": "Five-layer pyramid for AI adoption (Trust → Literacy → Training → Tools → Transformation). You cannot start at the top. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_maslow_pyramid_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De Maslow-piramide voor AI-adoptie",
+        "description": "Five-layer pyramid for AI adoption (Trust → Literacy → Training → Tools → Transformation). You cannot start at the top. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_three_ai_roles_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The three AI roles every organisation needs",
+        "description": "Organisational adoption framework: Strategy Lead (one per organisation), Product Owner (one to five), Champions (one per team). Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_three_ai_roles_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De drie AI-rollen die elke organisatie nodig heeft",
+        "description": "Organisational adoption framework: Strategy Lead (one per organisation), Product Owner (one to five), Champions (one per team). Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_second_brain_gradations_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "Five gradations of a second brain",
+        "description": "Knowledge infrastructure ladder: filing cabinet → structured → AI reads everything → chunked and vectorised → hive mind. A Google Drive is not a second brain. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_second_brain_gradations_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "Vijf gradaties van een second brain",
+        "description": "Knowledge infrastructure ladder: filing cabinet → structured → AI reads everything → chunked and vectorised → hive mind. A Google Drive is not a second brain. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_doctor_analogy_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "From wanderer to care team — the doctor analogy",
+        "description": "Individual AI familiarity ladder, seven stages from googling to a multi-agent care team. A new AI chat is a wanderer with a smartphone. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_doctor_analogy_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "Van zwerver tot zorgteam — de dokters-metafoor",
+        "description": "Individual AI familiarity ladder, seven stages from googling to a multi-agent care team. A new AI chat is a wanderer with a smartphone. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_ai_stress_layers_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The five layers of AI-stress",
+        "description": "Five compounding layers of stress from AI adoption: productivity paradox, horizon explosion, dopamine addiction, loss of boring breaks, social pressure. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_ai_stress_layers_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De vijf lagen van AI-stress",
+        "description": "Five compounding layers of stress from AI adoption: productivity paradox, horizon explosion, dopamine addiction, loss of boring breaks, social pressure. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_parking_lot_mind_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The parking lot in your mind",
+        "description": "Mental load metaphor: the brain has limited spots, every unfinished thought is a parked car. Three types: to-dos, creative thoughts, complex chains. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_parking_lot_mind_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De parkeerplaats in je hoofd",
+        "description": "Mental load metaphor: the brain has limited spots, every unfinished thought is a parked car. Three types: to-dos, creative thoughts, complex chains. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_impact_effort_skill_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "Impact, effort, skill — how to choose what to build",
+        "description": "Three-axis decision framework for AI use cases: impact (value), effort (cost), skill (training). Editorial poster with isometric 3D coordinate system in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_impact_effort_skill_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "Impact, effort, skill — hoe kies je wat je bouwt",
+        "description": "Three-axis decision framework for AI use cases: impact (value), effort (cost), skill (training). Editorial poster with isometric 3D coordinate system in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
       }
     ]
   },
