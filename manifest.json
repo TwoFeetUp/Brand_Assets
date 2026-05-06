@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-04",
+  "lastUpdated": "2026-05-06",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -15,6 +15,11 @@
       "manifest": "/talktocrm/manifest.json",
       "usage": "Product/sub-brand assets for TalkToCRM"
     }
+  },
+  "imageDump": {
+    "path": "/image_dump/",
+    "indexUrl": "/image_dump/index.json",
+    "description": "One-off shareable images. Bewust uitgesloten van deze manifest om context-bloat te voorkomen. Fetch indexUrl on-demand voor de volledige bestandenlijst. Index wordt automatisch gegenereerd door de pre-commit hook."
   },
   "colors": {
     "primary": "#414099",

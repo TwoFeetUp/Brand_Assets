@@ -8,7 +8,11 @@
  */
 
 const { execSync } = require("child_process");
+const fs = require("fs");
 const path = require("path");
+
+const IMAGE_DUMP_PREFIX = "image_dump/";
+const IMAGE_DUMP_INDEX = "image_dump/index.json";
 
 // ─── Staged bestanden ophalen ──────────────────────────────────────────────────
 
@@ -24,16 +28,51 @@ function getStagedFiles() {
     });
 }
 
-const staged = getStagedFiles();
+let staged = getStagedFiles();
 const errors = [];
+
+const MEDIA_EXTS = [".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg", ".mp4", ".mov", ".avi", ".mkv", ".m4v"];
+
+// ─── image_dump/index.json automatisch (her)genereren ─────────────────────────
+// Doel: image_dump/ is bewust uitgesloten van manifest.json om bloat te voorkomen.
+// Consumers vinden de inhoud via een aparte, auto-gegenereerde index. Zie CLAUDE.md.
+
+const stagedImageDumpChanges = staged.filter(
+  (f) => f.file.startsWith(IMAGE_DUMP_PREFIX) && f.file !== IMAGE_DUMP_INDEX
+);
+
+if (stagedImageDumpChanges.length > 0) {
+  const tracked = execSync("git ls-files --cached image_dump/", { encoding: "utf8" })
+    .trim()
+    .split("\n")
+    .filter(Boolean)
+    .filter((f) => f !== IMAGE_DUMP_INDEX)
+    .filter((f) => MEDIA_EXTS.includes(path.extname(f).toLowerCase()));
+
+  const indexEntries = tracked.sort().map((file) => ({
+    path: "/" + file,
+    name: path.basename(file, path.extname(file)),
+  }));
+
+  const newContent = JSON.stringify(indexEntries, null, 2) + "\n";
+  const previous = fs.existsSync(IMAGE_DUMP_INDEX) ? fs.readFileSync(IMAGE_DUMP_INDEX, "utf8") : null;
+
+  if (previous !== newContent) {
+    fs.writeFileSync(IMAGE_DUMP_INDEX, newContent);
+    execSync(`git add ${IMAGE_DUMP_INDEX}`);
+    console.log(`ℹ️   ${IMAGE_DUMP_INDEX} geregenereerd (${indexEntries.length} entries) en gestaged.`);
+    staged = getStagedFiles();
+  }
+}
 
 const newFiles = staged.filter((f) => f.status === "A");
 const manifestUpdated = staged.some((f) => f.file === "manifest.json");
 
-const MEDIA_EXTS = [".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg", ".mp4", ".mov", ".avi", ".mkv", ".m4v"];
-
-const newMediaFiles = newFiles.filter((f) =>
-  MEDIA_EXTS.includes(path.extname(f.file).toLowerCase())
+// image_dump/ valt expliciet buiten de "elke upload = manifest entry"-regel.
+const newMediaFiles = newFiles.filter(
+  (f) =>
+    MEDIA_EXTS.includes(path.extname(f.file).toLowerCase()) &&
+    !f.file.startsWith(IMAGE_DUMP_PREFIX)
 );
 
 // ─── Regel 1: manifest.json moet bijgewerkt zijn bij nieuwe mediabestanden ─────
