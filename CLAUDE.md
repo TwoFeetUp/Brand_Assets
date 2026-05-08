@@ -30,11 +30,12 @@ De `manifest.json` is het centrale register voor **alle** brand assets. Het word
 - **`logos`** — alle logo- en beeldmerkvariaties met pad, afmetingen, en usage
 - **`products`** — product/sub-brand registraties, zoals TalkToCRM, met eigen manifest
 - **`imageDump`** — pointer-entry naar `image_dump/index.json` voor one-off shareable images. Inhoud staat **niet** hier; consumers fetchen de aparte index on-demand. Zie [image_dump — uitzondering op de manifest-regel](#image_dump--uitzondering-op-de-manifest-regel).
+- **`videoDump`** — pointer-entry naar `video_dump/index.json` voor one-off shareable video's (MP4-only, max 100MB per file). Zelfde patroon als `imageDump`. Zie [video_dump — uitzondering op de manifest-regel](#video_dump--uitzondering-op-de-manifest-regel).
 - **`images`** — alle afbeeldingscategorieën (employees, digitalEmployees, partners, office, media, hackathon, previews, raw, edited, external)
 - **`videos`** — video assets met afmetingen en duur
 
 ### Regels voor manifest.json
-- **Elke upload moet een entry krijgen in manifest.json** — dit is een harde afspraak. **Enige uitzondering:** bestanden onder `image_dump/` (zie sectie hieronder).
+- **Elke upload moet een entry krijgen in manifest.json** — dit is een harde afspraak. **Uitzonderingen:** bestanden onder `image_dump/` en `video_dump/` (zie secties hieronder).
 - **`lastUpdated` bijwerken bij elke wijziging**
 - Secties: `employees`, `digitalEmployees`, `partners`, `office`, `media`, `hackathon`, `previews`, `raw`, `edited`, `external`
 - Elke entry bevat minimaal: `path`, `name`, `description`
@@ -87,6 +88,7 @@ Gedetailleerde kleurenpalet met hex, rgb, hsl per kleur plus:
 - `edited/{event}/` — goedgekeurde foto's na review, WebP, metadata gestript
 - `videos/` — video assets
 - `image_dump/{onderwerp-of-klant-of-datum}/` — one-off shareables, **uitgesloten van manifest.json**, geïndexeerd via auto-gegenereerde `image_dump/index.json`. Zie sectie hieronder.
+- `video_dump/{onderwerp-of-klant-of-datum}/` — one-off shareable video's (MP4-only, max 100MB), **uitgesloten van manifest.json**, geïndexeerd via auto-gegenereerde `video_dump/index.json`. Zie sectie hieronder.
 
 ### Spaties in directory- en bestandsnamen
 Sommige directories en bestanden bevatten **letterlijke spaties** (bijv. `digital employees/`, `AI colleague Alex.png`). Dit is de bestaande conventie. Consumers moeten `%20` URL-encoding gebruiken bij het bouwen van URLs.
@@ -102,7 +104,7 @@ Sommige directories en bestanden bevatten **letterlijke spaties** (bijv. `digita
 
 ### Waarom een aparte regel
 
-Als deze 100+ entries in `manifest.json` zouden staan, zou elke fetch door een consuming agent (Brandon, Stella) onnodig veel context verbruiken voor data die in 99% van de gevallen niet relevant is. Daarom is `image_dump/` bewust **uitgezonderd** van de "elke upload = manifest entry"-regel. Het is de enige uitzondering.
+Als deze 100+ entries in `manifest.json` zouden staan, zou elke fetch door een consuming agent (Brandon, Stella) onnodig veel context verbruiken voor data die in 99% van de gevallen niet relevant is. Daarom is `image_dump/` bewust **uitgezonderd** van de "elke upload = manifest entry"-regel. `video_dump/` volgt hetzelfde patroon (zie volgende sectie); buiten die twee zijn er geen uitzonderingen.
 
 ### Hoe het werkt
 
@@ -123,6 +125,44 @@ Als deze 100+ entries in `manifest.json` zouden staan, zou elke fetch door een c
 - Bij staged toevoegingen, wijzigingen of verwijderingen onder `image_dump/`: regenereert `image_dump/index.json` op basis van `git ls-files --cached image_dump/` en stage't het bijgewerkte bestand.
 - Slaat de `MANIFEST_NOT_UPDATED` check over voor bestanden onder `image_dump/` — een commit met alleen image_dump-toevoegingen blokkeert dus niet op het ontbreken van een main-manifest update.
 
+## video_dump — uitzondering op de manifest-regel
+
+`video_dump/` is bedoeld voor **one-off shareable video's** die je publiek wilt kunnen delen via de GitHub Pages CDN (typisch: embedden in een view.twofeetup.com pagina), maar die je niet hergebruikt — demo-loops voor één klant, screencasts bij een uitleg, korte social-clips voor één campagne. Zelfde redenering als `image_dump/`: bewust **uitgezonderd** van de "elke upload = manifest entry"-regel om context-bloat te voorkomen.
+
+Voor herbruikbare brand-video's blijft `videos/` (mét manifest-entry inclusief afmetingen en duur) de juiste plek.
+
+### Hoe het werkt
+
+1. **Upload** — plaats bestanden in een sub-map per onderwerp/klant/datum, bijv. `video_dump/achmea-2026-q2/demo_dashboard_walkthrough.mp4`.
+2. **Index** — bij commit regenereert de pre-commit hook automatisch `video_dump/index.json` met dezelfde `{ path, name }` shape als `image_dump/`. Mens raakt dit bestand niet aan.
+3. **Pointer in main manifest** — `manifest.json.videoDump` bevat één entry met `path`, `indexUrl`, `description`. Geen per-file entries.
+4. **Discovery door agents** — twee-staps fetch: `manifest.json` zien ze altijd, `videoDump.indexUrl` halen ze pas op zodra ze iets uit `video_dump/` nodig hebben.
+
+### Harde regels voor `video_dump/` (afgedwongen door pre-commit hook)
+
+- **MP4-only.** Alleen `.mp4` (H.264 + AAC) — `.mov`, `.webm`, `.avi`, `.mkv`, `.m4v` worden geblokkeerd. Reden: alleen MP4 speelt betrouwbaar inline in alle browsers (vooral Safari/iOS). Convert: `ffmpeg -i input.mov -c:v libx264 -pix_fmt yuv420p -movflags +faststart -c:a aac -b:a 128k output.mp4`.
+- **Max 100MB per bestand.** GitHub blokkeert grotere files hard. Te lang? Trim of comprimeer met ffmpeg, of host op YouTube/Vimeo en embed dáár vanaf in plaats van het bestand zelf.
+- **Naamgeving** — snake_case, min. 2 woorden, geen camera-namen (`IMG_*`, `MOV_*`, etc.).
+- **Public-warning** blijft 100% van toepassing.
+- **`video_dump/index.json` niet handmatig bewerken** — wordt door de hook geregenereerd.
+
+### Wat de hook automatisch doet
+
+- Bij staged wijzigingen onder `video_dump/`: regenereert `video_dump/index.json` op basis van `git ls-files --cached video_dump/` en stage't het bijgewerkte bestand.
+- Slaat de `MANIFEST_NOT_UPDATED` check over voor bestanden onder `video_dump/`.
+- Blokkeert non-MP4 video's, files >100MB, en niet-snake_case / camera-namen met een duidelijke fix-instructie.
+
+### Embedden in view.twofeetup.com
+
+```html
+<video
+  src="https://twofeetup.github.io/Brand_Assets/video_dump/achmea-2026-q2/demo_dashboard_walkthrough.mp4"
+  controls
+  playsinline
+  style="max-width: 100%; height: auto;"
+></video>
+```
+
 ## Pre-commit hook — automatische validatie
 
 De repo bevat een pre-commit hook die commits blokkeert die de regels overtreden.
@@ -133,13 +173,15 @@ git config core.hooksPath .githooks
 ```
 
 De hook controleert automatisch:
-- manifest.json bijgewerkt als er nieuwe mediabestanden worden toegevoegd (uitgezonderd: `image_dump/`)
+- manifest.json bijgewerkt als er nieuwe mediabestanden worden toegevoegd (uitgezonderd: `image_dump/` en `video_dump/`)
 - `edited/` bestanden: snake_case naam (min. 2 woorden), geen cameranamen, alleen .webp
 - `images/external/` bestanden: naam begint met `external_[Naam]_[Organisatie]`
 - `raw/` bestanden: geen UUID-namen
+- `video_dump/` bestanden: alleen `.mp4`, max 100MB, snake_case naam, geen cameranamen
 
 Daarnaast doet de hook automatisch:
 - Bij wijzigingen onder `image_dump/`: regenereert `image_dump/index.json` en stage't het mee in de commit. Zie [image_dump — uitzondering op de manifest-regel](#image_dump--uitzondering-op-de-manifest-regel).
+- Bij wijzigingen onder `video_dump/`: regenereert `video_dump/index.json` en stage't het mee in de commit. Zie [video_dump — uitzondering op de manifest-regel](#video_dump--uitzondering-op-de-manifest-regel).
 
 Bij overtreding: commit geblokkeerd met duidelijke foutmelding + fix-instructie.
 

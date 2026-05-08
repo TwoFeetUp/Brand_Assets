@@ -21,6 +21,11 @@
     "indexUrl": "/image_dump/index.json",
     "description": "One-off shareable images. Bewust uitgesloten van deze manifest om context-bloat te voorkomen. Fetch indexUrl on-demand voor de volledige bestandenlijst. Index wordt automatisch gegenereerd door de pre-commit hook."
   },
+  "videoDump": {
+    "path": "/video_dump/",
+    "indexUrl": "/video_dump/index.json",
+    "description": "One-off shareable video's (MP4-only, max 100MB per file). Bewust uitgesloten van deze manifest om context-bloat te voorkomen. Fetch indexUrl on-demand voor de volledige bestandenlijst. Index wordt automatisch gegenereerd door de pre-commit hook. Embed via <video src> in view.twofeetup.com pagina's."
+  },
   "colors": {
     "primary": "#414099",
     "secondary": "#8ed8f8",
