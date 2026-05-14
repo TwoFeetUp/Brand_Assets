@@ -377,6 +377,27 @@
         "height": 1500,
         "name": "Tegeltje ScaleUp Company",
         "description": "Bedanktegeltje van ScaleUp Company"
+      },
+      {
+        "path": "/images/media/Tegeltje_ING.png",
+        "width": 4125,
+        "height": 4125,
+        "name": "Tegeltje ING",
+        "description": "Bedanktegeltje van ING"
+      },
+      {
+        "path": "/images/media/Tegeltje_Passoen.png",
+        "width": 4125,
+        "height": 4125,
+        "name": "Tegeltje Passoen",
+        "description": "Bedanktegeltje van Passoen"
+      },
+      {
+        "path": "/images/media/Tegeltje_Thomas_Damen.png",
+        "width": 4125,
+        "height": 4125,
+        "name": "Tegeltje Thomas Damen",
+        "description": "Bedanktegeltje van Thomas Damen"
       }
     ],
     "raw": [
