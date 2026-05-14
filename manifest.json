@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-08",
+  "lastUpdated": "2026-05-14",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -589,18 +589,18 @@
         "width": 1856,
         "height": 2304,
         "language": "nl",
-        "name": "De vier AI-rollen die elke organisatie nodig heeft",
-        "description": "Organisatorisch adoptie-framework (acroniem SPoCK): Strategy Lead (één per organisatie), Product Owner (één tot vijf), Champions (één per team), Kennis Manager (één tot drie). Editorial poster in TwoFeetUp huisstijl.",
-        "uploadedAt": "2026-05-08"
+        "name": "De vier AI-rollen",
+        "description": "Organisatorisch adoptie-framework (acroniem SPoCK): Strategy Lead (1 per organisatie), Product Owner (1 per business unit), Champions (1 per team), Kennis Manager (1 per domein). Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-14"
       },
       {
         "path": "/images/frameworks/framework_four_ai_roles_en.png",
         "width": 1856,
         "height": 2304,
         "language": "en",
-        "name": "The four AI roles every organisation needs",
-        "description": "Organisational adoption framework (acronym SPoCK): Strategy Lead (one per organisation), Product Owner (one to five), Champions (one per team), Knowledge Manager (one to three). Editorial poster in TwoFeetUp huisstijl.",
-        "uploadedAt": "2026-05-08"
+        "name": "The four AI roles",
+        "description": "Organisational adoption framework (acronym SPoCK): Strategy Lead (1 per organisation), Product Owner (1 per business unit), Champions (1 per team), Knowledge Manager (1 per domain). Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-14"
       },
       {
         "path": "/images/frameworks/framework_second_brain_gradations_en.png",
