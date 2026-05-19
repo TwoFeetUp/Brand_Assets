@@ -822,6 +822,15 @@
       "width": 1920,
       "height": 1080,
       "uploadedAt": "2026-05-19T16:08:54Z"
+    },
+    "studioAnimated": {
+      "path": "/video-call-backgrounds/studio.gif",
+      "name": "Video call background — Studio (animated GIF)",
+      "description": "Animated GIF version of the studio variant. The oversized TFU beeldmerk drifts very slowly along an elliptical path in the background, seamlessly looping every 10s. 1280x720, 15fps. Use voor presentations, social posts, of waar een geanimeerde achtergrond werkt (NIET als video-call background in Meet/Teams — die accepteren alleen PNG/JPG).",
+      "width": 1280,
+      "height": 720,
+      "duration": 10,
+      "uploadedAt": "2026-05-19T17:21:49Z"
     }
   }
 }

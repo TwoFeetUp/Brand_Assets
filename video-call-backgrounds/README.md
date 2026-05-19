@@ -8,6 +8,7 @@ Drie diverging visual varianten met identieke logo + slogan placement:
 |---|---|---|
 | `ambient.png` | Ascent gradient (paars → blauw) met soft drifting orbs en diagonaal beeldmerk-tile patroon | Warm, atmospheric |
 | `studio.png` | Donkere editorial backdrop met oversized TFU beeldmerk-vorm aan de linker zijde | Magazine / podcast-studio |
+| `studio.gif` | Geanimeerde versie van `studio.png` — beeldmerk drift heel langzaam in elliptische baan, 10s loop, 1280×720, 15fps | Animated background voor decks, social, embeds |
 | `mono.png` | Bijna-zwart met subtiele paars/blauw spotlight glows | Ultra-minimal, executive |
 
 ## Design rules
