@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-19",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -108,6 +108,80 @@
     "talkToCRM": {
       "path": "/logos/TalkToCRM_Icon_Temp.png",
       "usage": "Tijdelijk logo/icoon voor TalkToCRM product (microfoon + cloud/CRM)"
+    },
+    "animated": {
+      "brandCycle": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_BrandCycle.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — BrandCycle",
+        "description": "Animated TFU beeldmerk GIF — BrandCycle motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "breathingGradient": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_BreathingGradient.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — BreathingGradient",
+        "description": "Animated TFU beeldmerk GIF — BreathingGradient motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "colorFlip": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_ColorFlip.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — ColorFlip",
+        "description": "Animated TFU beeldmerk GIF — ColorFlip motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "confetti": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_Confetti.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — Confetti",
+        "description": "Animated TFU beeldmerk GIF — Confetti motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "heartbeat": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_Heartbeat.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — Heartbeat",
+        "description": "Animated TFU beeldmerk GIF — Heartbeat motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "jellyWobble": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_JellyWobble.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — JellyWobble",
+        "description": "Animated TFU beeldmerk GIF — JellyWobble motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "popBounce": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_PopBounce.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — PopBounce",
+        "description": "Animated TFU beeldmerk GIF — PopBounce motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "sonarPulse": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_SonarPulse.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — SonarPulse",
+        "description": "Animated TFU beeldmerk GIF — SonarPulse motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "spinFlip": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_SpinFlip.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — SpinFlip",
+        "description": "Animated TFU beeldmerk GIF — SpinFlip motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "stampLand": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_StampLand.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — StampLand",
+        "description": "Animated TFU beeldmerk GIF — StampLand motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "twoStep": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_TwoStep.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — TwoStep",
+        "description": "Animated TFU beeldmerk GIF — TwoStep motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "twoStepLight": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_TwoStepLight.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — TwoStepLight",
+        "description": "Animated TFU beeldmerk GIF — TwoStepLight motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      }
     }
   },
   "images": {
@@ -723,5 +797,31 @@
       "duration": 8,
       "description": "Hackathon video (portrait)"
     }
-  ]
+  ],
+  "videoCallBackgrounds": {
+    "ambient": {
+      "path": "/video-call-backgrounds/ambient.png",
+      "name": "Video call background — Ambient",
+      "description": "TwoFeetUp + TalkToCRM video-call background, 1920x1080 PNG. Ascent gradient (paars naar blauw) met soft drifting orbs en diagonaal beeldmerk-tile patroon. Warm, atmospheric variant.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-05-19T16:08:54Z"
+    },
+    "studio": {
+      "path": "/video-call-backgrounds/studio.png",
+      "name": "Video call background — Studio",
+      "description": "TwoFeetUp + TalkToCRM video-call background, 1920x1080 PNG. Donkere editorial backdrop met oversized TFU beeldmerk-vorm aan linkerzijde. Magazine / podcast-studio vibe.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-05-19T16:08:54Z"
+    },
+    "mono": {
+      "path": "/video-call-backgrounds/mono.png",
+      "name": "Video call background — Mono",
+      "description": "TwoFeetUp + TalkToCRM video-call background, 1920x1080 PNG. Bijna-zwart met subtiele paars/blauw spotlight glows. Ultra-minimal executive variant.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-05-19T16:08:54Z"
+    }
+  }
 }
