@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-03-27",
+  "lastUpdated": "2026-05-20",
   "baseUrl": "https://twofeetup.github.io/brand",
   "brand": {
     "name": "TwoFeetUp",
@@ -154,6 +154,15 @@
         "role": "Stagiair",
         "status": "active",
         "description": "Stage sinds februari 2026. Hackathon automation project."
+      },
+      {
+        "path": "/images/employees/Eva.png",
+        "width": 500,
+        "height": 500,
+        "name": "Eva Coers",
+        "role": "AI Consultant",
+        "status": "active",
+        "description": "AI consultant bij TwoFeetUp."
       }
     ],
     "digitalEmployees": [
