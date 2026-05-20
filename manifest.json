@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-05-20",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -267,6 +267,15 @@
         "status": "active",
         "description": "AI Trainer bij TwoFeetUp.",
         "linkedin": "https://www.linkedin.com/in/wilfred-van-kampen-497b4a7/"
+      },
+      {
+        "path": "/images/employees/Eva.png",
+        "width": 500,
+        "height": 500,
+        "name": "Eva Coers",
+        "role": "AI Consultant",
+        "status": "active",
+        "description": "AI consultant bij TwoFeetUp."
       }
     ],
     "teamPhotos": [
