@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -356,6 +356,13 @@
         "height": 800,
         "name": "Pieter Post",
         "description": "AI agent avatar - Pieter Post, de mail- en communicatie-assistent"
+      },
+      {
+        "path": "/images/digital employees/AI agent Brandon Branding.png",
+        "width": 2048,
+        "height": 2048,
+        "name": "Brandon Branding",
+        "description": "AI agent avatar - Brandon Branding, de huisstijl- en branding-assistent"
       }
     ],
     "partners": [
