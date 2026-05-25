@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-25",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -276,6 +276,63 @@
         "role": "AI Consultant",
         "status": "active",
         "description": "AI consultant bij TwoFeetUp."
+      }
+    ],
+    "banners": [
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-1.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 1 (merk-slogan)",
+        "topic": "merk-slogan",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 1 voor Wouter — merk + slogan/headline-claim. Ook bruikbaar als hero/banner in pitches naar klanten en partners."
+      },
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-2.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 2 (probleem-adoptie)",
+        "topic": "probleem-adoptie",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 2 voor Wouter — AI-adoptie probleem-reframe. Ook bruikbaar als losse visual in pitches en presentaties."
+      },
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-3.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 3 (social-proof)",
+        "topic": "social-proof",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 3 voor Wouter — social proof (klantnamen/partnerships). Ook bruikbaar in proposals en partner-comms."
+      },
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-4.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 4 (second-brain-gradaties)",
+        "topic": "second-brain-gradaties",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 4 voor Wouter — Second Brain framework / AI-adoptie gradaties. Ook bruikbaar als framework-uitleg in pitches."
+      },
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-5.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 5 (cta-kennismaking)",
+        "topic": "cta-kennismaking",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 5 voor Wouter — CTA kennismaking. Ook bruikbaar als sluit-slide in pitches en outreach-decks."
       }
     ],
     "teamPhotos": [
