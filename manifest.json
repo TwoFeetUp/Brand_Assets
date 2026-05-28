@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-05-28",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -475,6 +475,38 @@
         "height": 816,
         "name": "Workshop TwoFeetUp - Live Demo",
         "description": "Wouter geeft een live demo tijdens een TwoFeetUp workshop. Deelnemers met laptops, iemand filmt met telefoon. Make.com automation scenario zichtbaar op scherm. Intieme setting, hands-on sfeer."
+      },
+      {
+        "path": "/images/media/workshop_live_demo_group.jpg",
+        "width": 4032,
+        "height": 3024,
+        "name": "Workshop live demo group",
+        "description": "Hands-on TwoFeetUp workshop met groep deelnemers, laptops op tafel en live demo op projectiescherm. Geschikt als prominent workshop-hero of recapbeeld.",
+        "uploadedAt": "2026-05-28"
+      },
+      {
+        "path": "/images/media/workshop_breakout_laptops.jpg",
+        "width": 4032,
+        "height": 3024,
+        "name": "Workshop breakout laptops",
+        "description": "Breakoutmoment tijdens TwoFeetUp workshop: deelnemers werken in kleine groepen met laptops, trainer loopt rond, slide op scherm. Geschikt voor workshop- en trainingcommunicatie.",
+        "uploadedAt": "2026-05-28"
+      },
+      {
+        "path": "/images/media/workshop_coaching_laptop.jpg",
+        "width": 3024,
+        "height": 4032,
+        "name": "Workshop coaching laptop",
+        "description": "Close-up van coaching tijdens workshop: deelnemer werkt op laptop terwijl begeleider meekijkt. Geschikt voor hands-on begeleiding en AI-training.",
+        "uploadedAt": "2026-05-28"
+      },
+      {
+        "path": "/images/media/workshop_full_room.jpg",
+        "width": 3024,
+        "height": 4032,
+        "name": "Workshop full room",
+        "description": "Volle workshopruimte met deelnemers aan meerdere tafels, laptops open en actieve groepsopdracht. Geschikt als overzichtsbeeld voor workshops.",
+        "uploadedAt": "2026-05-28"
       },
       {
         "path": "/images/media/AFAS_Hackathon_Keynote.jpg",

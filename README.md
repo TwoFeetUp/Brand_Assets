@@ -33,7 +33,7 @@ Brand_Assets/
 │   ├── employees/          # Teamfoto's (voornaam als bestandsnaam)
 │   ├── digital employees/  # AI colleague avatars
 │   ├── hackathon/          # Hackathon fotografie
-│   ├── media/              # Pers, keynotes, tegeltjes
+│   ├── media/              # Pers, keynotes, workshops, tegeltjes
 │   ├── office/             # Kantoorlocatie foto's
 │   └── partner companies/  # Logo's van partners
 │

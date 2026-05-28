@@ -79,7 +79,7 @@ Gedetailleerde kleurenpalet met hex, rgb, hsl per kleur plus:
 - `images/employees/` — profielfoto's TwoFeetUp-medewerkers (500x500px PNG)
 - `images/digital employees/` — AI-agent avatars (let op: directory bevat spaties)
 - `images/office/` — kantoorlocatie foto's
-- `images/media/` — persberichten, media-optredens, tegeltjes
+- `images/media/` — persberichten, media-optredens, workshopfoto's, tegeltjes
 - `images/partner companies/` — partnerlogo's (let op: directory bevat spaties)
 - `images/hackathon/` — hackathonfoto's (legacy, nieuwe uploads via `raw/` of `edited/`)
 - `images/previews/` — OG/social preview images voor tools en applicaties
