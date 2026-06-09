@@ -12,6 +12,18 @@ Dit is een **publieke** repository. Alle bestanden zijn direct zichtbaar en down
 - **Geen** bestanden met gevoelige metadata (EXIF met locatie, cameragegevens, etc.)
 - Bij twijfel: **niet uploaden** — vraag eerst goedkeuring
 
+## Media-instroom: Drive eerst, deze repo daarna
+
+TwoFeetUp media start **altijd** op Google Drive en komt pas hierheen na curatie. Sorteer op **status**, niet op bestandstype.
+
+- **Ruw / onbewerkt / intern / ongereviewd** → Google Drive **Raw footage inbox**: https://drive.google.com/drive/folders/1XJKnZS0_l7f1YKtz5s8tH-kmgMTe9JNZ
+  - Volledige event-dumps, foto/video rechtstreeks van toestel, opnames van shows/podcasts. Per event een map met conventie `YYMMDD Event Naam` (bijv. `Teamuitjes/260421 Ribhouse Texas` — workations horen onder `Teamuitjes/`). Privé, niet publiek.
+- **Goedgekeurd / public-safe / herbruikbaar** → deze repo. Pas opnemen na: review + goedkeuring, consent van afgebeelde personen, EXIF/metadata gestript, en bedoeld voor hergebruik.
+
+Flow: `Drive Raw footage inbox/{event}` → curated selectie → `raw/{event}/` (JPEG) → review → `edited/{event}/` (WebP, gestript) → `manifest.json`-entry.
+
+Curatie gebeurt **vóór** upload: deze repo is publiek, dus "achteraf opschonen" is te laat. Dump nooit een volledige ruwe set hierheen.
+
 ## Doel van deze repo
 
 Centrale mediabibliotheek voor alle TwoFeetUp brand assets: logo's, medewerkersfoto's, evenementfoto's, video's en meer. Wordt gebruikt door Stella Story en andere AI-agents via manifest.json.

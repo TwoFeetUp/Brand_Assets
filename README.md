@@ -2,7 +2,7 @@
 
 Centrale repository voor alle goedgekeurde TwoFeetUp brand assets.
 
-**Deze repo is public.** Alleen definitief, bewerkt materiaal dat bewust gepubliceerd mag worden hoort hier. Ruwe of onverwerkte content (teamfoto's van telefoon, onbewerkte visuals, etc.) gaat naar de gezamenlijke Google Drive folder.
+**Deze repo is public.** Alleen definitief, bewerkt materiaal dat bewust gepubliceerd mag worden hoort hier. Ruwe of onverwerkte content (teamfoto's van telefoon, onbewerkte visuals, etc.) gaat naar de gezamenlijke Google Drive **Raw footage inbox**: https://drive.google.com/drive/folders/1XJKnZS0_l7f1YKtz5s8tH-kmgMTe9JNZ. Zie [Media workflow](#media-workflow-drive-vs-deze-repo) voor wanneer iets waar hoort.
 
 ## Wat zit erin?
 
@@ -49,6 +49,23 @@ Brand_Assets/
 ```
 
 ## Beleid
+
+### Media workflow: Drive vs. deze repo
+
+Zo gaat TwoFeetUp met media om. Sorteer op **status**, niet op bestandstype.
+
+| | Google Drive — Raw footage inbox | Deze repo (Brand_Assets) |
+|---|---|---|
+| **Wat** | Alle ruwe, onbewerkte, interne media: foto/video rechtstreeks van toestel, event-dumps (workshops, hackathons, teamuitjes, show/podcast-opnames) | Alleen definitief, goedgekeurd, public-safe materiaal dat hergebruikt wordt |
+| **Status** | Ongereviewd, work-in-progress, consent nog niet gecheckt | Gereviewd, consent geregeld, EXIF gestript, in `manifest.json` |
+| **Zichtbaarheid** | Privé, intern | **Publiek** (GitHub Pages CDN) |
+| **Naamgeving** | `YYMMDD Event Naam` per event | snake_case, zie naamregels hieronder |
+
+**Drive — Raw footage inbox:** https://drive.google.com/drive/folders/1XJKnZS0_l7f1YKtz5s8tH-kmgMTe9JNZ
+
+**De regel:** alles begint op Drive. Een asset komt pas naar deze repo nadat het (1) gereviewd en goedgekeurd is, (2) consent geregeld is voor afgebeelde personen, (3) EXIF/metadata gestript is, en (4) bedoeld is voor hergebruik. Curatie gebeurt **vóór** de upload, want in een publieke repo is "achteraf opschonen" te laat. Dump nooit een volledige ruwe set hierheen.
+
+**Flow:** `Drive Raw footage inbox/{event}` → curated selectie → `raw/{event}/` (JPEG) → review → `edited/{event}/` (WebP, EXIF gestript) → entry in `manifest.json`.
 
 ### Wat hoort hier
 - Definitieve, bewerkte assets die public mogen zijn
