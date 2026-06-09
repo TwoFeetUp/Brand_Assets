@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-06-09",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -623,7 +623,16 @@
       }
     ],
     "edited": [],
-    "external": [],
+    "external": [
+      {
+        "path": "/images/external/external_Andre_Schaap.png",
+        "width": 500,
+        "height": 500,
+        "name": "André Schaap",
+        "description": "Externe samenwerkingspartner; geeft workshops, expertise AI in marketing",
+        "uploadedAt": "2026-06-09"
+      }
+    ],
     "backgrounds": [],
     "icons": [],
     "misc": [],
