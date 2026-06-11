@@ -1,23 +1,52 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-20",
-  "baseUrl": "https://twofeetup.github.io/brand",
+  "lastUpdated": "2026-06-11",
+  "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
     "tagline": "",
     "website": "https://twofeetup.com"
   },
+  "products": {
+    "talktocrm": {
+      "name": "TalkToCRM",
+      "website": "https://talktocrm.ai",
+      "basePath": "/talktocrm",
+      "manifest": "/talktocrm/manifest.json",
+      "usage": "Product/sub-brand assets for TalkToCRM"
+    }
+  },
+  "imageDump": {
+    "path": "/image_dump/",
+    "indexUrl": "/image_dump/index.json",
+    "description": "One-off shareable images. Bewust uitgesloten van deze manifest om context-bloat te voorkomen. Fetch indexUrl on-demand voor de volledige bestandenlijst. Index wordt automatisch gegenereerd door de pre-commit hook."
+  },
+  "videoDump": {
+    "path": "/video_dump/",
+    "indexUrl": "/video_dump/index.json",
+    "description": "One-off shareable video's (MP4-only, max 100MB per file). Bewust uitgesloten van deze manifest om context-bloat te voorkomen. Fetch indexUrl on-demand voor de volledige bestandenlijst. Index wordt automatisch gegenereerd door de pre-commit hook. Embed via <video src> in view.twofeetup.com pagina's."
+  },
   "colors": {
-    "primary": "#000000",
-    "secondary": "#000000",
-    "accent": "#000000",
+    "primary": "#414099",
+    "secondary": "#8ed8f8",
+    "accent": "#faa61a",
+    "violet": "#8473b5",
+    "purpleSecondary": "#7a7fbd",
     "background": "#ffffff",
-    "text": "#000000"
+    "text": "#050034",
+    "grey": "#f1f2f2",
+    "dark": "#1a1850",
+    "gradient": "linear-gradient(135deg, #414099 0%, #8ed8f8 100%)"
   },
   "fonts": {
     "primary": {
-      "name": "",
-      "weights": [400, 500, 700],
+      "name": "Nunito",
+      "weights": [
+        300,
+        400,
+        700
+      ],
+      "source": "https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap",
       "files": []
     }
   },
@@ -79,6 +108,80 @@
     "talkToCRM": {
       "path": "/logos/TalkToCRM_Icon_Temp.png",
       "usage": "Tijdelijk logo/icoon voor TalkToCRM product (microfoon + cloud/CRM)"
+    },
+    "animated": {
+      "brandCycle": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_BrandCycle.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — BrandCycle",
+        "description": "Animated TFU beeldmerk GIF — BrandCycle motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "breathingGradient": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_BreathingGradient.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — BreathingGradient",
+        "description": "Animated TFU beeldmerk GIF — BreathingGradient motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "colorFlip": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_ColorFlip.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — ColorFlip",
+        "description": "Animated TFU beeldmerk GIF — ColorFlip motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "confetti": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_Confetti.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — Confetti",
+        "description": "Animated TFU beeldmerk GIF — Confetti motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "heartbeat": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_Heartbeat.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — Heartbeat",
+        "description": "Animated TFU beeldmerk GIF — Heartbeat motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "jellyWobble": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_JellyWobble.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — JellyWobble",
+        "description": "Animated TFU beeldmerk GIF — JellyWobble motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "popBounce": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_PopBounce.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — PopBounce",
+        "description": "Animated TFU beeldmerk GIF — PopBounce motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "sonarPulse": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_SonarPulse.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — SonarPulse",
+        "description": "Animated TFU beeldmerk GIF — SonarPulse motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "spinFlip": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_SpinFlip.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — SpinFlip",
+        "description": "Animated TFU beeldmerk GIF — SpinFlip motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "stampLand": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_StampLand.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — StampLand",
+        "description": "Animated TFU beeldmerk GIF — StampLand motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "twoStep": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_TwoStep.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — TwoStep",
+        "description": "Animated TFU beeldmerk GIF — TwoStep motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      },
+      "twoStepLight": {
+        "path": "/logos/animated/TwoFeetUp_Beeldmerk_Animated_TwoStepLight.gif",
+        "name": "TwoFeetUp Beeldmerk Animated — TwoStepLight",
+        "description": "Animated TFU beeldmerk GIF — TwoStepLight motion variant. Voor decks, sites, social posts.",
+        "uploadedAt": "2026-05-19T16:08:54Z"
+      }
     }
   },
   "images": {
@@ -156,6 +259,16 @@
         "description": "Stage sinds februari 2026. Hackathon automation project."
       },
       {
+        "path": "/images/employees/Wilfred.png",
+        "width": 500,
+        "height": 500,
+        "name": "Wilfred van Kampen",
+        "role": "AI Trainer",
+        "status": "active",
+        "description": "AI Trainer bij TwoFeetUp.",
+        "linkedin": "https://www.linkedin.com/in/wilfred-van-kampen-497b4a7/"
+      },
+      {
         "path": "/images/employees/Eva.png",
         "width": 500,
         "height": 500,
@@ -163,6 +276,71 @@
         "role": "AI Consultant",
         "status": "active",
         "description": "AI consultant bij TwoFeetUp."
+      }
+    ],
+    "banners": [
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-1.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 1 (merk-slogan)",
+        "topic": "merk-slogan",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 1 voor Wouter — merk + slogan/headline-claim. Ook bruikbaar als hero/banner in pitches naar klanten en partners."
+      },
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-2.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 2 (probleem-adoptie)",
+        "topic": "probleem-adoptie",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 2 voor Wouter — AI-adoptie probleem-reframe. Ook bruikbaar als losse visual in pitches en presentaties."
+      },
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-3.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 3 (social-proof)",
+        "topic": "social-proof",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 3 voor Wouter — social proof (klantnamen/partnerships). Ook bruikbaar in proposals en partner-comms."
+      },
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-4.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 4 (second-brain-gradaties)",
+        "topic": "second-brain-gradaties",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 4 voor Wouter — Second Brain framework / AI-adoptie gradaties. Ook bruikbaar als framework-uitleg in pitches."
+      },
+      {
+        "path": "/images/banners/wouter-van-den-bijgaart-twofeetup-ai-agents-company-second-brain-hive-mind-ai-adoption-banner-slide-5.png",
+        "width": 4752,
+        "height": 1188,
+        "aspectRatio": "4:1",
+        "name": "Wouter LinkedIn banner — slide 5 (cta-kennismaking)",
+        "topic": "cta-kennismaking",
+        "usage": "LinkedIn profiel-banner carousel (slide 1-5 roteert) + losse visual in pitches, partner-decks en outreach",
+        "subject": "Wouter van den Bijgaart",
+        "description": "LinkedIn banner carousel slide 5 voor Wouter — CTA kennismaking. Ook bruikbaar als sluit-slide in pitches en outreach-decks."
+      }
+    ],
+    "teamPhotos": [
+      {
+        "path": "/images/employees/twofeetup_oprichting_bank_foto.png",
+        "name": "TwoFeetUp oprichting",
+        "description": "Groepsfoto van het TwoFeetUp-team bij de oprichting, gemaakt bij de bank",
+        "uploadedAt": "2026-04-09"
       }
     ],
     "digitalEmployees": [
@@ -195,40 +373,53 @@
         "description": "AI colleague profile picture"
       },
       {
-        "path": "/images/digital employees/AI colleague Custom 1.png",
+        "path": "/images/digital employees/AI colleague Jordan.png",
         "width": 1024,
         "height": 1024,
-        "name": "Custom 1",
+        "name": "Jordan",
         "description": "AI colleague profile picture"
       },
       {
-        "path": "/images/digital employees/AI colleague Custom 2.png",
+        "path": "/images/digital employees/AI colleague Robin.png",
         "width": 1024,
         "height": 1024,
-        "name": "Custom 2",
+        "name": "Robin",
         "description": "AI colleague profile picture"
       },
       {
-        "path": "/images/digital employees/AI colleague Custom 3.png",
+        "path": "/images/digital employees/AI colleague Extra custom.png",
         "width": 1024,
         "height": 1024,
-        "name": "Custom 3",
+        "name": "Extra custom",
         "description": "AI colleague profile picture"
       },
       {
         "path": "/images/digital employees/AI agent Duco Declaratie.png",
+        "width": 1000,
+        "height": 1000,
         "name": "Duco Declaratie",
         "description": "AI agent avatar - Duco Declaratie, de declaratie- en bonnetjes-assistent"
       },
       {
         "path": "/images/digital employees/AI agent Stella Story.png",
+        "width": 2000,
+        "height": 2000,
         "name": "Stella Story",
         "description": "AI agent avatar - Stella Story, meeting search en kennisbank-assistent"
       },
       {
         "path": "/images/digital employees/AI agent Pieter Post.png",
+        "width": 800,
+        "height": 800,
         "name": "Pieter Post",
         "description": "AI agent avatar - Pieter Post, de mail- en communicatie-assistent"
+      },
+      {
+        "path": "/images/digital employees/AI agent Brandon Branding.png",
+        "width": 2048,
+        "height": 2048,
+        "name": "Brandon Branding",
+        "description": "AI agent avatar - Brandon Branding, de huisstijl- en branding-assistent"
       }
     ],
     "partners": [
@@ -286,6 +477,38 @@
         "description": "Wouter geeft een live demo tijdens een TwoFeetUp workshop. Deelnemers met laptops, iemand filmt met telefoon. Make.com automation scenario zichtbaar op scherm. Intieme setting, hands-on sfeer."
       },
       {
+        "path": "/images/media/workshop_live_demo_group.jpg",
+        "width": 4032,
+        "height": 3024,
+        "name": "Workshop live demo group",
+        "description": "Hands-on TwoFeetUp workshop met groep deelnemers, laptops op tafel en live demo op projectiescherm. Geschikt als prominent workshop-hero of recapbeeld.",
+        "uploadedAt": "2026-05-28"
+      },
+      {
+        "path": "/images/media/workshop_breakout_laptops.jpg",
+        "width": 4032,
+        "height": 3024,
+        "name": "Workshop breakout laptops",
+        "description": "Breakoutmoment tijdens TwoFeetUp workshop: deelnemers werken in kleine groepen met laptops, trainer loopt rond, slide op scherm. Geschikt voor workshop- en trainingcommunicatie.",
+        "uploadedAt": "2026-05-28"
+      },
+      {
+        "path": "/images/media/workshop_coaching_laptop.jpg",
+        "width": 3024,
+        "height": 4032,
+        "name": "Workshop coaching laptop",
+        "description": "Close-up van coaching tijdens workshop: deelnemer werkt op laptop terwijl begeleider meekijkt. Geschikt voor hands-on begeleiding en AI-training.",
+        "uploadedAt": "2026-05-28"
+      },
+      {
+        "path": "/images/media/workshop_full_room.jpg",
+        "width": 3024,
+        "height": 4032,
+        "name": "Workshop full room",
+        "description": "Volle workshopruimte met deelnemers aan meerdere tafels, laptops open en actieve groepsopdracht. Geschikt als overzichtsbeeld voor workshops.",
+        "uploadedAt": "2026-05-28"
+      },
+      {
         "path": "/images/media/AFAS_Hackathon_Keynote.jpg",
         "width": 1456,
         "height": 816,
@@ -294,33 +517,66 @@
       },
       {
         "path": "/images/media/Tegeltje_Beeckestijn_10nov2025.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje Beeckestijn (10 nov 2025)",
         "description": "Bedanktegeltje van Beeckestijn Business School, november 2025"
       },
       {
         "path": "/images/media/Tegeltje_OPCW.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje OPCW",
         "description": "Bedanktegeltje van OPCW (Organisation for the Prohibition of Chemical Weapons)"
       },
       {
         "path": "/images/media/Tegeltje_Virgil.png",
+        "width": 2250,
+        "height": 2250,
         "name": "Tegeltje Virgil",
         "description": "Bedanktegeltje van Virgil"
       },
       {
         "path": "/images/media/Tegeltje_Beeckestijn.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje Beeckestijn",
         "description": "Bedanktegeltje van Beeckestijn Business School"
       },
       {
         "path": "/images/media/Tegeltje_Klepper_en_Klepper.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje Klepper & Klepper",
         "description": "Bedanktegeltje van Klepper & Klepper"
       },
       {
         "path": "/images/media/Tegeltje_ScaleUp_Company.png",
+        "width": 1500,
+        "height": 1500,
         "name": "Tegeltje ScaleUp Company",
         "description": "Bedanktegeltje van ScaleUp Company"
+      },
+      {
+        "path": "/images/media/Tegeltje_ING.png",
+        "width": 4125,
+        "height": 4125,
+        "name": "Tegeltje ING",
+        "description": "Bedanktegeltje van ING"
+      },
+      {
+        "path": "/images/media/Tegeltje_Passoen.png",
+        "width": 4125,
+        "height": 4125,
+        "name": "Tegeltje Passoen",
+        "description": "Bedanktegeltje van Passoen"
+      },
+      {
+        "path": "/images/media/Tegeltje_Thomas_Damen.png",
+        "width": 4125,
+        "height": 4125,
+        "name": "Tegeltje Thomas Damen",
+        "description": "Bedanktegeltje van Thomas Damen"
       }
     ],
     "raw": [
@@ -343,129 +599,307 @@
         "uploadedAt": "2026-03-27"
       }
     ],
+    "previews": [
+      {
+        "path": "/images/previews/brand-assets-brainstorm-preview.png",
+        "width": 2048,
+        "height": 2048,
+        "name": "Brand Assets Brainstorm Preview",
+        "description": "Preview image voor Brand Assets brainstorm view met logo overlay"
+      },
+      {
+        "path": "/images/previews/ebike-restwaarde-2026-preview.jpg",
+        "width": 1200,
+        "height": 630,
+        "name": "E-bike Restwaarde 2026 Preview",
+        "description": "OG/social preview image voor e-bike restwaarde calculator 2026"
+      },
+      {
+        "path": "/images/previews/auto-lease-vergelijk-preview.png",
+        "width": 2048,
+        "height": 2048,
+        "name": "Auto Lease Vergelijk Preview",
+        "description": "Preview image voor auto lease vergelijker met logo overlay"
+      }
+    ],
+    "edited": [],
+    "external": [
+      {
+        "path": "/images/external/external_Andre_Schaap.png",
+        "width": 500,
+        "height": 500,
+        "name": "André Schaap",
+        "description": "Externe samenwerkingspartner; geeft workshops, expertise AI in marketing",
+        "uploadedAt": "2026-06-09"
+      }
+    ],
     "backgrounds": [],
     "icons": [],
     "misc": [],
     "hackathon": [
       {
-        "path": "/images/hackathon/IMG_0192.jpeg",
-        "width": 1179,
-        "height": 765,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_coding_peace_sign.webp",
+        "name": "hackathon coding peace sign",
+        "description": "coding peace sign"
       },
       {
-        "path": "/images/hackathon/IMG_0198.jpeg",
-        "width": 4032,
-        "height": 3024,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_group_laptop_work.webp",
+        "name": "hackathon group laptop work",
+        "description": "group laptop work"
       },
       {
-        "path": "/images/hackathon/IMG_0199.jpeg",
-        "width": 4032,
-        "height": 3024,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_group_watching_presentation.webp",
+        "name": "hackathon group watching presentation",
+        "description": "group watching presentation"
       },
       {
-        "path": "/images/hackathon/IMG_0200.jpeg",
-        "width": 8064,
-        "height": 6048,
-        "description": "Hackathon foto (hoge resolutie)"
+        "path": "/images/hackathon/hackathon_groups_laptop_work.webp",
+        "name": "hackathon groups laptop work",
+        "description": "groups laptop work"
       },
       {
-        "path": "/images/hackathon/IMG_0201.jpeg",
-        "width": 8064,
-        "height": 6048,
-        "description": "Hackathon foto (hoge resolutie)"
+        "path": "/images/hackathon/hackathon_man_explaining_whiteboard.webp",
+        "name": "hackathon man explaining whiteboard",
+        "description": "man explaining whiteboard"
       },
       {
-        "path": "/images/hackathon/IMG_0204.jpeg",
-        "width": 9462,
-        "height": 3894,
-        "description": "Hackathon panorama foto"
+        "path": "/images/hackathon/hackathon_man_presenting_ai_matching.webp",
+        "name": "hackathon man presenting ai matching",
+        "description": "man presenting ai matching"
       },
       {
-        "path": "/images/hackathon/IMG_0211.jpeg",
-        "width": 4565,
-        "height": 4395,
-        "description": "Hackathon foto (vierkant)"
+        "path": "/images/hackathon/hackathon_man_smiling_mug.webp",
+        "name": "hackathon man smiling mug",
+        "description": "man smiling mug"
       },
       {
-        "path": "/images/hackathon/1B957A72-2E19-4FC2-9451-F70549C92C75_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_man_whiteboard_planning.webp",
+        "name": "hackathon man whiteboard planning",
+        "description": "man whiteboard planning"
       },
       {
-        "path": "/images/hackathon/22651327-C2E1-4ED7-9F81-58E53A7537CB_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_people_working_laptops.webp",
+        "name": "hackathon people working laptops",
+        "description": "people working laptops"
       },
       {
-        "path": "/images/hackathon/36F1C3E2-2703-435C-A56F-C2271592ED2C_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_speaker_ai_screen.webp",
+        "name": "hackathon speaker ai screen",
+        "description": "speaker ai screen"
       },
       {
-        "path": "/images/hackathon/395602D0-357E-411E-A228-5835329210C7_1_105_c.jpeg",
-        "width": 1182,
-        "height": 665,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_coding.webp",
+        "name": "hackathon team coding",
+        "description": "team coding"
       },
       {
-        "path": "/images/hackathon/3DFA9E92-1772-4FB3-BFA7-85B58E9360EF_1_102_a.jpeg",
-        "width": 2134,
-        "height": 1474,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_team_coding_laptops.webp",
+        "name": "hackathon team coding laptops",
+        "description": "team coding laptops"
       },
       {
-        "path": "/images/hackathon/543DD26D-5B4A-49F1-88FB-B11E897C012B_1_105_c.jpeg",
-        "width": 1182,
-        "height": 665,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_coding_laptops_2.webp",
+        "name": "hackathon team coding laptops 2",
+        "description": "team coding laptops 2"
       },
       {
-        "path": "/images/hackathon/672CECA2-F293-4519-8784-50EFED1A9C29_1_105_c.jpeg",
-        "width": 768,
-        "height": 1024,
-        "description": "Hackathon foto (portrait)"
+        "path": "/images/hackathon/hackathon_team_coding_laptops_3.webp",
+        "name": "hackathon team coding laptops 3",
+        "description": "team coding laptops 3"
       },
       {
-        "path": "/images/hackathon/70CFBC57-69C8-4FFD-BBDF-02DB8F46B41B_1_105_c.jpeg",
-        "width": 1138,
-        "height": 690,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_desk_smiling.webp",
+        "name": "hackathon team desk smiling",
+        "description": "team desk smiling"
       },
       {
-        "path": "/images/hackathon/B271AD7D-2A47-4CDD-BEF4-D2FBD981361D_1_105_c.jpeg",
-        "width": 665,
-        "height": 1182,
-        "description": "Hackathon foto (portrait)"
+        "path": "/images/hackathon/hackathon_team_focused_coding.webp",
+        "name": "hackathon team focused coding",
+        "description": "team focused coding"
       },
       {
-        "path": "/images/hackathon/C10FE0EA-9078-4B0D-9158-A3367D26D6C4_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_team_focused_coding_2.webp",
+        "name": "hackathon team focused coding 2",
+        "description": "team focused coding 2"
       },
       {
-        "path": "/images/hackathon/E03DFD14-7FD4-43ED-9AA1-9D32C991F02D_1_105_c.jpeg",
-        "width": 1024,
-        "height": 768,
-        "description": "Hackathon foto"
+        "path": "/images/hackathon/hackathon_team_laptops_planning.webp",
+        "name": "hackathon team laptops planning",
+        "description": "team laptops planning"
       },
       {
-        "path": "/images/hackathon/E4963EA9-1CF0-41E4-A751-4E7A22CA1032_1_105_c.jpeg",
-        "width": 1188,
-        "height": 660,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_laptops_working.webp",
+        "name": "hackathon team laptops working",
+        "description": "team laptops working"
       },
       {
-        "path": "/images/hackathon/E57A8CF1-C577-4CA4-9273-EB43DC241DEF_1_105_c.jpeg",
-        "width": 1182,
-        "height": 665,
-        "description": "Hackathon foto (landscape)"
+        "path": "/images/hackathon/hackathon_team_selfie_cafe.webp",
+        "name": "hackathon team selfie cafe",
+        "description": "team selfie cafe"
+      }
+    ],
+    "frameworks": [
+      {
+        "path": "/images/frameworks/framework_three_destinations_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The 3 destinations of AI adoption",
+        "description": "AI adoption strategy framework: AI Literate (baseline) → AI Ready (acceleration) → AI First (transformation). Three deliberate destinations with keywords per tier. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_three_destinations_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De 3 bestemmingen van AI-adoptie",
+        "description": "AI adoption strategy framework: AI Literate (baseline) → AI Ready (acceleration) → AI First (transformation). Three deliberate destinations with keywords per tier. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_maslow_pyramid_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The Maslow pyramid for AI adoption",
+        "description": "Five-layer pyramid for AI adoption (Trust → Literacy → Training → Tools → Transformation). You cannot start at the top. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_maslow_pyramid_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De Maslow-piramide voor AI-adoptie",
+        "description": "Five-layer pyramid for AI adoption (Trust → Literacy → Training → Tools → Transformation). You cannot start at the top. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_three_ai_roles_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The three AI roles every organisation needs",
+        "description": "Organisational adoption framework: Strategy Lead (one per organisation), Product Owner (one to five), Champions (one per team). Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_three_ai_roles_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De drie AI-rollen die elke organisatie nodig heeft",
+        "description": "Organisational adoption framework: Strategy Lead (one per organisation), Product Owner (one to five), Champions (one per team). Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_four_ai_roles_nl.png",
+        "width": 1856,
+        "height": 2304,
+        "language": "nl",
+        "name": "De vier AI-rollen",
+        "description": "Organisatorisch adoptie-framework (acroniem SPoCK): Strategy Lead (1 per organisatie), Product Owner (1 per business unit), Champions (1 per team), Kennis Manager (1 per domein). Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-14"
+      },
+      {
+        "path": "/images/frameworks/framework_four_ai_roles_en.png",
+        "width": 1856,
+        "height": 2304,
+        "language": "en",
+        "name": "The four AI roles",
+        "description": "Organisational adoption framework (acronym SPoCK): Strategy Lead (1 per organisation), Product Owner (1 per business unit), Champions (1 per team), Knowledge Manager (1 per domain). Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-14"
+      },
+      {
+        "path": "/images/frameworks/framework_second_brain_gradations_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "Five gradations of a second brain",
+        "description": "Knowledge infrastructure ladder: filing cabinet → structured → AI reads everything → chunked and vectorised → hive mind. A Google Drive is not a second brain. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_second_brain_gradations_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "Vijf gradaties van een second brain",
+        "description": "Knowledge infrastructure ladder: filing cabinet → structured → AI reads everything → chunked and vectorised → hive mind. A Google Drive is not a second brain. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_doctor_analogy_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "From wanderer to care team — the doctor analogy",
+        "description": "Individual AI familiarity ladder, seven stages from googling to a multi-agent care team. A new AI chat is a wanderer with a smartphone. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_doctor_analogy_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "Van zwerver tot zorgteam — de dokters-metafoor",
+        "description": "Individual AI familiarity ladder, seven stages from googling to a multi-agent care team. A new AI chat is a wanderer with a smartphone. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_ai_stress_layers_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The five layers of AI-stress",
+        "description": "Five compounding layers of stress from AI adoption: productivity paradox, horizon explosion, dopamine addiction, loss of boring breaks, social pressure. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_ai_stress_layers_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De vijf lagen van AI-stress",
+        "description": "Five compounding layers of stress from AI adoption: productivity paradox, horizon explosion, dopamine addiction, loss of boring breaks, social pressure. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_parking_lot_mind_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "The parking lot in your mind",
+        "description": "Mental load metaphor: the brain has limited spots, every unfinished thought is a parked car. Three types: to-dos, creative thoughts, complex chains. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_parking_lot_mind_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "De parkeerplaats in je hoofd",
+        "description": "Mental load metaphor: the brain has limited spots, every unfinished thought is a parked car. Three types: to-dos, creative thoughts, complex chains. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_impact_effort_skill_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "Impact, effort, skill — how to choose what to build",
+        "description": "Three-axis decision framework for AI use cases: impact (value), effort (cost), skill (training). Editorial poster with isometric 3D coordinate system in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_impact_effort_skill_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "Impact, effort, skill — hoe kies je wat je bouwt",
+        "description": "Three-axis decision framework for AI use cases: impact (value), effort (cost), skill (training). Editorial poster with isometric 3D coordinate system in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-05-04"
       }
     ]
   },
@@ -477,5 +911,40 @@
       "duration": 8,
       "description": "Hackathon video (portrait)"
     }
-  ]
+  ],
+  "videoCallBackgrounds": {
+    "ambient": {
+      "path": "/video-call-backgrounds/ambient.png",
+      "name": "Video call background — Ambient",
+      "description": "TwoFeetUp + TalkToCRM video-call background, 1920x1080 PNG. Ascent gradient (paars naar blauw) met soft drifting orbs en diagonaal beeldmerk-tile patroon. Warm, atmospheric variant.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-05-19T16:08:54Z"
+    },
+    "studio": {
+      "path": "/video-call-backgrounds/studio.png",
+      "name": "Video call background — Studio",
+      "description": "TwoFeetUp + TalkToCRM video-call background, 1920x1080 PNG. Donkere editorial backdrop met oversized TFU beeldmerk-vorm aan linkerzijde. Magazine / podcast-studio vibe.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-05-19T16:08:54Z"
+    },
+    "mono": {
+      "path": "/video-call-backgrounds/mono.png",
+      "name": "Video call background — Mono",
+      "description": "TwoFeetUp + TalkToCRM video-call background, 1920x1080 PNG. Bijna-zwart met subtiele paars/blauw spotlight glows. Ultra-minimal executive variant.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-05-19T16:08:54Z"
+    },
+    "studioAnimated": {
+      "path": "/video-call-backgrounds/studio.gif",
+      "name": "Video call background — Studio (animated GIF)",
+      "description": "Animated GIF version of the studio variant. The oversized TFU beeldmerk drifts very slowly along an elliptical path in the background, seamlessly looping every 10s. 1280x720, 15fps. Use voor presentations, social posts, of waar een geanimeerde achtergrond werkt (NIET als video-call background in Meet/Teams — die accepteren alleen PNG/JPG).",
+      "width": 1280,
+      "height": 720,
+      "duration": 10,
+      "uploadedAt": "2026-05-19T17:21:49Z"
+    }
+  }
 }

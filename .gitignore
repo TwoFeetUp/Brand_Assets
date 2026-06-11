@@ -1,0 +1,6 @@
+# Salesforce MCP artefact
+.sfdx/
+
+# OS
+.DS_Store
+Thumbs.db
