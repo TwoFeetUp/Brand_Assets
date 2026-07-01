@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-07-01",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -736,6 +736,11 @@
         "path": "/images/hackathon/hackathon_team_selfie_cafe.webp",
         "name": "hackathon team selfie cafe",
         "description": "team selfie cafe"
+      },
+      {
+        "path": "/images/hackathon/hackathon_team_working_office_view.webp",
+        "name": "hackathon team working office view",
+        "description": "team working at table with laptops, TwoFeetUp banner, office view"
       }
     ],
     "frameworks": [
