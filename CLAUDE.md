@@ -51,7 +51,8 @@ De `manifest.json` is het centrale register voor **alle** brand assets. Het word
 - **`lastUpdated` bijwerken bij elke wijziging**
 - Secties: `employees`, `digitalEmployees`, `partners`, `office`, `media`, `hackathon`, `previews`, `raw`, `edited`, `external`
 - Elke entry bevat minimaal: `path`, `name`, `description`
-- Employees bevatten ook: `role`, `description`, `status` (`"active"` of `"temporarily_inactive"`)
+- Employees bevatten ook: `role`, `description`, `status` (`"active"`, `"temporarily_inactive"` of `"archived"`)
+- `"archived"` = uit dienst of uitgefaseerd; bestand verhuist naar de `_archive/` submap van zijn categorie, entry blijft staan (record) maar consumers verbergen het. Geldt ook voor `digitalEmployees`.
 - Bij geautomatiseerde uploads ook: `uploadedAt`
 
 ### Regels voor kleuren en fonts
@@ -88,8 +89,10 @@ Gedetailleerde kleurenpalet met hex, rgb, hsl per kleur plus:
 ### Mappenstructuur
 - `logos/` — alle logo- en beeldmerkvariaties
 - `talktocrm/` — TalkToCRM product/sub-brand assets met eigen `manifest.json`
-- `images/employees/` — profielfoto's TwoFeetUp-medewerkers (500x500px PNG)
+- `images/employees/` — profielfoto's TwoFeetUp-medewerkers (500x500px PNG, canonieke oranje-ring transparante stijl — zie `docs/avatar-processing.md`)
+- `images/employees/_archive/` — profielfoto's van vertrokken medewerkers/gasten (`status: "archived"`)
 - `images/digital employees/` — AI-agent avatars (let op: directory bevat spaties)
+- `images/digital employees/_archive/` — uitgefaseerde AI-avatars (`status: "archived"`)
 - `images/office/` — kantoorlocatie foto's
 - `images/media/` — persberichten, media-optredens, workshopfoto's, tegeltjes
 - `images/partner companies/` — partnerlogo's (let op: directory bevat spaties)
@@ -104,6 +107,13 @@ Gedetailleerde kleurenpalet met hex, rgb, hsl per kleur plus:
 
 ### Spaties in directory- en bestandsnamen
 Sommige directories en bestanden bevatten **letterlijke spaties** (bijv. `digital employees/`, `AI colleague Alex.png`). Dit is de bestaande conventie. Consumers moeten `%20` URL-encoding gebruiken bij het bouwen van URLs.
+
+### Employee avatars (canonieke stijl)
+Employee-profielfoto's volgen één vaste stijl: 500x500 PNG, vrijgesteld onderwerp op
+transparante achtergrond, binnen de oranje TwoFeetUp-ring (`#faa61a`, buitenstraal 200px,
+binnenstraal 189px). Genereer ze reproduceerbaar met `scripts/process_avatar.py` (rembg +
+ring-overlay); volledige onboarding/offboarding-procedure in `docs/avatar-processing.md`.
+Nooit met de hand een witte achtergrond of losse ring inbakken.
 
 ### Externe mensen
 - Foto's van mensen buiten TwoFeetUp gaan naar `images/external/`
