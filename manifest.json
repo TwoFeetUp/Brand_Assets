@@ -961,6 +961,54 @@
       "height": 720,
       "duration": 10,
       "uploadedAt": "2026-05-19T17:21:49Z"
+    },
+    "brainNetwork": {
+      "path": "/video-call-backgrounds/brain-network.png",
+      "name": "Video call background — Brain Network",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Flat vector circuit-brein linksboven met tagline 'Your agents need a brain.'. Logo top-left.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "brainHub": {
+      "path": "/video-call-backgrounds/brain-hub.png",
+      "name": "Video call background — Brain Hub",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Flat vector gloeiende oranje brein-hub met orbiterende agent-nodes, tagline 'Your agents need a brain.' in onderbalk. Logo top-left.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "ecosystemQuiet": {
+      "path": "/video-call-backgrounds/ecosystem-quiet.png",
+      "name": "Video call background — Ecosystem Quiet",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Flat vector subtiel spinnenweb/sterrenbeeld-patroon, geen tagline. Logo top-left.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "auroraBrain": {
+      "path": "/video-call-backgrounds/aurora-brain.png",
+      "name": "Video call background — Aurora Brain",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Cinematische AI-render: volumetrische aurora-linten (indigo/blauw) die samentrekken tot een breinvormige lichtwolk, dun oranje lichtdraadje, filmkorrel. Tagline 'Your agents need a brain.' (brain in TFU-oranje italic). Logo top-left. Gestileerd naar twofeetup.com's eigen OG-image art direction.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "glassMind": {
+      "path": "/video-call-backgrounds/glass-mind.png",
+      "name": "Video call background — Glass Mind",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Cinematische AI-render: fotorealistisch sculptuur van een brein in vloeibaar glas/chroom, warm tungsten licht tegen koel randlicht, echte scherptediepte en refractie. Tagline 'Your agents need a brain.' (brain in TFU-oranje italic). Logo top-left. Sterkste van de zes cinematische varianten.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "quietAscent": {
+      "path": "/video-call-backgrounds/quiet-ascent.png",
+      "name": "Video call background — Quiet Ascent",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Cinematische AI-render: grote mesh-gradient met filmkorrel, nauwelijks zichtbare 'traptrede'-silhouet rechtsonder (abstracte verwijzing naar het TFU-beeldmerk). Geen brain-tagline; slogan 'We spark the sense of wonder' (wonder in TFU-oranje italic). Logo top-left. Rustige, executive variant.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
     }
   }
 }
