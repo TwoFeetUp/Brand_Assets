@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-07-17",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -241,41 +241,41 @@
         "description": "AI consultant, sessies en projecten. Sinds maart 2026."
       },
       {
-        "path": "/images/employees/Fahim.png",
-        "width": 500,
-        "height": 500,
-        "name": "Fahim Rohmon",
-        "role": "AI Developer",
-        "status": "temporarily_inactive",
-        "description": "AI project componenten, implementatie. Tijdelijk afwezig (stage-opdracht elders). Komt hopelijk terug."
-      },
-      {
-        "path": "/images/employees/Jay.png",
-        "width": 500,
-        "height": 500,
-        "name": "Jay van Horik",
-        "role": "Stagiair",
-        "status": "active",
-        "description": "Stage sinds februari 2026. Hackathon automation project."
-      },
-      {
         "path": "/images/employees/Wilfred.png",
         "width": 500,
         "height": 500,
         "name": "Wilfred van Kampen",
-        "role": "AI Trainer",
+        "role": "AI Trainer & Consultant",
         "status": "active",
-        "description": "AI Trainer bij TwoFeetUp.",
+        "description": "AI Trainer & Consultant bij TwoFeetUp.",
         "linkedin": "https://www.linkedin.com/in/wilfred-van-kampen-497b4a7/"
       },
       {
-        "path": "/images/employees/Eva.png",
+        "path": "/images/employees/_archive/Fahim.png",
+        "width": 500,
+        "height": 500,
+        "name": "Fahim Rohmon",
+        "role": "AI Developer",
+        "status": "archived",
+        "description": "Voormalig AI Developer. Niet meer werkzaam bij TwoFeetUp. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/employees/_archive/Jay.png",
+        "width": 500,
+        "height": 500,
+        "name": "Jay van Horik",
+        "role": "Stagiair",
+        "status": "archived",
+        "description": "Voormalig stagiair (feb 2026, hackathon automation). Stage afgerond, niet meer werkzaam bij TwoFeetUp. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/employees/_archive/Eva.png",
         "width": 500,
         "height": 500,
         "name": "Eva Coers",
-        "role": "AI Consultant",
-        "status": "active",
-        "description": "AI consultant bij TwoFeetUp."
+        "role": "Gast (VR Nederland)",
+        "status": "archived",
+        "description": "Geen TwoFeetUp-medewerker. VR Nederland, eenmalig ingevlogen voor een AI-workshop. Gearchiveerd 2026-07-17."
       }
     ],
     "banners": [
@@ -345,59 +345,11 @@
     ],
     "digitalEmployees": [
       {
-        "path": "/images/digital employees/AI colleague Alex.png",
-        "width": 1563,
-        "height": 1563,
-        "name": "Alex",
-        "description": "AI colleague profile picture"
-      },
-      {
-        "path": "/images/digital employees/AI colleague Charlie.png",
-        "width": 1563,
-        "height": 1563,
-        "name": "Charlie",
-        "description": "AI colleague profile picture"
-      },
-      {
-        "path": "/images/digital employees/AI colleague Max.png",
-        "width": 1563,
-        "height": 1563,
-        "name": "Max",
-        "description": "AI colleague profile picture"
-      },
-      {
-        "path": "/images/digital employees/AI colleague Sam.png",
-        "width": 1563,
-        "height": 1563,
-        "name": "Sam",
-        "description": "AI colleague profile picture"
-      },
-      {
-        "path": "/images/digital employees/AI colleague Jordan.png",
-        "width": 1024,
-        "height": 1024,
-        "name": "Jordan",
-        "description": "AI colleague profile picture"
-      },
-      {
-        "path": "/images/digital employees/AI colleague Robin.png",
-        "width": 1024,
-        "height": 1024,
-        "name": "Robin",
-        "description": "AI colleague profile picture"
-      },
-      {
-        "path": "/images/digital employees/AI colleague Extra custom.png",
-        "width": 1024,
-        "height": 1024,
-        "name": "Extra custom",
-        "description": "AI colleague profile picture"
-      },
-      {
         "path": "/images/digital employees/AI agent Duco Declaratie.png",
         "width": 1000,
         "height": 1000,
         "name": "Duco Declaratie",
+        "status": "active",
         "description": "AI agent avatar - Duco Declaratie, de declaratie- en bonnetjes-assistent"
       },
       {
@@ -405,6 +357,7 @@
         "width": 2000,
         "height": 2000,
         "name": "Stella Story",
+        "status": "active",
         "description": "AI agent avatar - Stella Story, meeting search en kennisbank-assistent"
       },
       {
@@ -412,6 +365,7 @@
         "width": 800,
         "height": 800,
         "name": "Pieter Post",
+        "status": "active",
         "description": "AI agent avatar - Pieter Post, de mail- en communicatie-assistent"
       },
       {
@@ -419,7 +373,64 @@
         "width": 2048,
         "height": 2048,
         "name": "Brandon Branding",
+        "status": "active",
         "description": "AI agent avatar - Brandon Branding, de huisstijl- en branding-assistent"
+      },
+      {
+        "path": "/images/digital employees/_archive/AI colleague Alex.png",
+        "width": 1563,
+        "height": 1563,
+        "name": "Alex",
+        "status": "archived",
+        "description": "Generieke AI colleague avatar. Uitgefaseerd, niet meer in gebruik. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/digital employees/_archive/AI colleague Charlie.png",
+        "width": 1563,
+        "height": 1563,
+        "name": "Charlie",
+        "status": "archived",
+        "description": "Generieke AI colleague avatar. Uitgefaseerd, niet meer in gebruik. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/digital employees/_archive/AI colleague Max.png",
+        "width": 1563,
+        "height": 1563,
+        "name": "Max",
+        "status": "archived",
+        "description": "Generieke AI colleague avatar. Uitgefaseerd, niet meer in gebruik. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/digital employees/_archive/AI colleague Sam.png",
+        "width": 1563,
+        "height": 1563,
+        "name": "Sam",
+        "status": "archived",
+        "description": "Generieke AI colleague avatar. Uitgefaseerd, niet meer in gebruik. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/digital employees/_archive/AI colleague Jordan.png",
+        "width": 1024,
+        "height": 1024,
+        "name": "Jordan",
+        "status": "archived",
+        "description": "Generieke AI colleague avatar. Uitgefaseerd, niet meer in gebruik. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/digital employees/_archive/AI colleague Robin.png",
+        "width": 1024,
+        "height": 1024,
+        "name": "Robin",
+        "status": "archived",
+        "description": "Generieke AI colleague avatar. Uitgefaseerd, niet meer in gebruik. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/digital employees/_archive/AI colleague Extra custom.png",
+        "width": 1024,
+        "height": 1024,
+        "name": "Extra custom",
+        "status": "archived",
+        "description": "Generieke AI colleague avatar. Uitgefaseerd, niet meer in gebruik. Gearchiveerd 2026-07-17."
       }
     ],
     "partners": [
@@ -736,6 +747,11 @@
         "path": "/images/hackathon/hackathon_team_selfie_cafe.webp",
         "name": "hackathon team selfie cafe",
         "description": "team selfie cafe"
+      },
+      {
+        "path": "/images/hackathon/hackathon_team_working_office_view.webp",
+        "name": "hackathon team working office view",
+        "description": "team working at table with laptops, TwoFeetUp banner, office view"
       }
     ],
     "frameworks": [
@@ -945,6 +961,54 @@
       "height": 720,
       "duration": 10,
       "uploadedAt": "2026-05-19T17:21:49Z"
+    },
+    "brainNetwork": {
+      "path": "/video-call-backgrounds/brain-network.png",
+      "name": "Video call background — Brain Network",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Flat vector circuit-brein linksboven met tagline 'Your agents need a brain.'. Logo top-left.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "brainHub": {
+      "path": "/video-call-backgrounds/brain-hub.png",
+      "name": "Video call background — Brain Hub",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Flat vector gloeiende oranje brein-hub met orbiterende agent-nodes, tagline 'Your agents need a brain.' in onderbalk. Logo top-left.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "ecosystemQuiet": {
+      "path": "/video-call-backgrounds/ecosystem-quiet.png",
+      "name": "Video call background — Ecosystem Quiet",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Flat vector subtiel spinnenweb/sterrenbeeld-patroon, geen tagline. Logo top-left.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "auroraBrain": {
+      "path": "/video-call-backgrounds/aurora-brain.png",
+      "name": "Video call background — Aurora Brain",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Cinematische AI-render: volumetrische aurora-linten (indigo/blauw) die samentrekken tot een breinvormige lichtwolk, dun oranje lichtdraadje, filmkorrel. Tagline 'Your agents need a brain.' (brain in TFU-oranje italic). Logo top-left. Gestileerd naar twofeetup.com's eigen OG-image art direction.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "glassMind": {
+      "path": "/video-call-backgrounds/glass-mind.png",
+      "name": "Video call background — Glass Mind",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Cinematische AI-render: fotorealistisch sculptuur van een brein in vloeibaar glas/chroom, warm tungsten licht tegen koel randlicht, echte scherptediepte en refractie. Tagline 'Your agents need a brain.' (brain in TFU-oranje italic). Logo top-left. Sterkste van de zes cinematische varianten.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
+    },
+    "quietAscent": {
+      "path": "/video-call-backgrounds/quiet-ascent.png",
+      "name": "Video call background — Quiet Ascent",
+      "description": "TwoFeetUp video-call background, 1920x1080 PNG. Cinematische AI-render: grote mesh-gradient met filmkorrel, nauwelijks zichtbare 'traptrede'-silhouet rechtsonder (abstracte verwijzing naar het TFU-beeldmerk). Geen brain-tagline; slogan 'We spark the sense of wonder' (wonder in TFU-oranje italic). Logo top-left. Rustige, executive variant.",
+      "width": 1920,
+      "height": 1080,
+      "uploadedAt": "2026-07-21T21:40:43Z"
     }
   }
 }
