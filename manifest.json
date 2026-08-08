@@ -588,6 +588,38 @@
         "height": 4125,
         "name": "Tegeltje Thomas Damen",
         "description": "Bedanktegeltje van Thomas Damen"
+      },
+      {
+        "path": "/images/media/Tegeltje_TwoFeetUp_Ben_Je_Nou_Zelf_Aan_Het_Werk.png",
+        "width": 4125,
+        "height": 4125,
+        "name": "Tegeltje - Ben je nou zelf aan het werk",
+        "uploadedAt": "2026-08-08",
+        "description": "Delfts blauw TwoFeetUp-tegeltje met de tekst 'Ben je nou zelf aan het werk??'. Quote van Thomas Damen, 8 april 2026. Intern tegeltje, bruikbaar in propositie- en campagnemateriaal over handmatig werk versus automatisering."
+      },
+      {
+        "path": "/images/media/web/Tegeltje_TwoFeetUp_Ben_Je_Nou_Zelf_Aan_Het_Werk.jpg",
+        "width": 820,
+        "height": 820,
+        "name": "Tegeltje - Ben je nou zelf aan het werk (web)",
+        "uploadedAt": "2026-08-08",
+        "description": "Web-geoptimaliseerde versie (820px jpg) van het tegeltje 'Ben je nou zelf aan het werk??', voor standalone HTML en View-pagina's waar het origineel van 6MB te zwaar is."
+      },
+      {
+        "path": "/images/media/web/Tegeltje_ScaleUp_Company.jpg",
+        "width": 820,
+        "height": 820,
+        "name": "Tegeltje ScaleUp Company (web)",
+        "uploadedAt": "2026-08-08",
+        "description": "Web-geoptimaliseerde versie (820px jpg) van het ScaleUp Company-tegeltje over volwassen mensen die weer kinderlijk enthousiast worden."
+      },
+      {
+        "path": "/images/media/web/Tegeltje_Beeckestijn_10nov2025.jpg",
+        "width": 820,
+        "height": 820,
+        "name": "Tegeltje Beeckestijn 10 nov 2025 (web)",
+        "uploadedAt": "2026-08-08",
+        "description": "Web-geoptimaliseerde versie (820px jpg) van het Beeckestijn-tegeltje van een deelnemer AI in Business, 10 november 2025."
       }
     ],
     "raw": [
