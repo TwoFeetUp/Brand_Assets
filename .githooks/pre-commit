@@ -11,6 +11,8 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
+execSync("gitleaks git --staged --no-banner -v", { stdio: "inherit" });
+
 const IMAGE_DUMP_PREFIX = "image_dump/";
 const IMAGE_DUMP_INDEX = "image_dump/index.json";
 const VIDEO_DUMP_PREFIX = "video_dump/";

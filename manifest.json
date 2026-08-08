@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-07-17",
+  "lastUpdated": "2026-08-08",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -633,7 +633,56 @@
         "description": "Preview image voor auto lease vergelijker met logo overlay"
       }
     ],
-    "edited": [],
+    "edited": [
+      {
+        "path": "/edited/2026-01-14-eo-ai-workshop/eo_ai_workshop_overview.webp",
+        "name": "EO AI workshop overview",
+        "description": "Breed overzicht van de EO AI-workshop met spreker en publiek in de zaal.",
+        "width": 1448,
+        "height": 1086,
+        "uploadedAt": "2026-08-08"
+      },
+      {
+        "path": "/edited/2026-01-14-eo-ai-workshop/team_matcher_live_demo.webp",
+        "name": "Team Matcher live demo",
+        "description": "Team Matcher live demo met presentatoren, dashboards en publiek tijdens de EO AI-workshop.",
+        "width": 1445,
+        "height": 1089,
+        "uploadedAt": "2026-08-08"
+      },
+      {
+        "path": "/edited/2026-01-14-eo-ai-workshop/team_matcher_results_presentation.webp",
+        "name": "Team Matcher results presentation",
+        "description": "Presentatie van Team Matcher-resultaten door drie deelnemers voor het workshop-publiek.",
+        "width": 1488,
+        "height": 1057,
+        "uploadedAt": "2026-08-08"
+      },
+      {
+        "path": "/edited/2026-01-14-eo-ai-workshop/team_matcher_success_moment.webp",
+        "name": "Team Matcher success moment",
+        "description": "Succesmoment in de Team Matcher-demo met de bevestiging Goed gedaan op het scherm.",
+        "width": 1443,
+        "height": 1090,
+        "uploadedAt": "2026-08-08"
+      },
+      {
+        "path": "/edited/2026-01-14-eo-ai-workshop/team_matcher_situation_demo.webp",
+        "name": "Team Matcher situation demo",
+        "description": "Interactieve Team Matcher-situatie wordt live toegelicht aan het workshop-publiek.",
+        "width": 1445,
+        "height": 1088,
+        "uploadedAt": "2026-08-08"
+      },
+      {
+        "path": "/edited/2026-01-14-eo-ai-workshop/ai_workshop_closing_applause.webp",
+        "name": "AI workshop closing applause",
+        "description": "Afsluiting van de EO AI-workshop met applaus voor de mensen op het podium.",
+        "width": 1448,
+        "height": 1086,
+        "uploadedAt": "2026-08-08"
+      }
+    ],
     "external": [
       {
         "path": "/images/external/external_Andre_Schaap.png",
