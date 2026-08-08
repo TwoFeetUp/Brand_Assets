@@ -620,6 +620,22 @@
         "name": "Tegeltje Beeckestijn 10 nov 2025 (web)",
         "uploadedAt": "2026-08-08",
         "description": "Web-geoptimaliseerde versie (820px jpg) van het Beeckestijn-tegeltje van een deelnemer AI in Business, 10 november 2025."
+      },
+      {
+        "path": "/images/media/AI_Pitstop_Huisbezoek.png",
+        "width": 2752,
+        "height": 1536,
+        "name": "AI Pitstop - huisbezoek",
+        "uploadedAt": "2026-08-08",
+        "description": "Sfeerbeeld voor de AI Pitstop-propositie: AI-expert werkt op de bank aan een automation-scenario terwijl de ondernemer er genietend naast staat. Architectenwoning, blauw uur. AI-gegenereerde scene met een echte Make-scenario-screenshot in perspectief op het laptopscherm."
+      },
+      {
+        "path": "/images/media/web/AI_Pitstop_Huisbezoek.jpg",
+        "width": 1600,
+        "height": 893,
+        "name": "AI Pitstop - huisbezoek (web)",
+        "uploadedAt": "2026-08-08",
+        "description": "Web-geoptimaliseerde versie (1600px jpg) van het AI Pitstop huisbezoek-sfeerbeeld, voor landingspagina's en View-pagina's."
       }
     ],
     "raw": [
