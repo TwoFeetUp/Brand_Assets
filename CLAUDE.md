@@ -280,3 +280,9 @@ Bij kleurwijzigingen moeten deze drie synchroon zijn:
 
 - Alle `edited/` en `external/` bestanden zijn WebP met gestripte EXIF/XMP/C2PA-metadata
 - `raw/` bestanden zijn JPEG (originele camerabestanden, licht gecomprimeerd)
+
+## Gedeelde CE-workspace
+
+CE-plannen, solutions, concepten en markdown-documentatie worden gespiegeld naar de gedeelde
+`Brand_Assets`-workspace. De vaste koppeling en folder-id's staan in
+`.compound-engineering/workspace-mirror.json`; lokale bestanden blijven de bron van waarheid.
