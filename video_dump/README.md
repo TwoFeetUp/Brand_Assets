@@ -2,6 +2,25 @@
 
 One-off shareable video's. **Uitgesloten van `manifest.json`** om context-bloat te voorkomen voor consuming agents (zelfde patroon als `image_dump/`).
 
+## Waarom video's hier staan (en wanneer dit weg mag)
+
+Deze map is een omweg, geen eindsituatie.
+
+Video's staan hier omdat view.twofeetup.com onze HTML rendert in een sandboxed iframe
+zonder `allow-same-origin` en met alleen `microphone` in de allow-lijst. De
+YouTube-speler heeft cookie- en storage-toegang nodig, krijgt die daar niet, en weigert
+te starten. Een `<video>` met een mp4 heeft dat niet nodig, dus daarom hosten we de
+mp4's zelf op de GitHub Pages CDN. De artefact-visualiser in de AI Hub loopt tegen
+hetzelfde aan.
+
+De kosten daarvan: elke video moet handmatig deze repo in, en niet iedereen heeft
+push-rechten, dus het kost steeds iemand anders een dag.
+
+**Zodra view en de artefact-visualiser wel video-embeds aankunnen (gevraagd aan Sjoerd,
+2026-08-20), hoort deze route te verdwijnen.** Dan wordt YouTube (of een echte
+media-CDN) de bron en hoeft er geen mp4 meer in git. Ruim bij die omslag ook op wat
+hier al staat, in plaats van het te laten staan omdat het toevallig werkt.
+
 ## Wanneer gebruiken
 
 Voor video's die je publiek wilt kunnen delen via de GitHub Pages CDN (bijv. embedden in een view.twofeetup.com pagina), maar die je niet hergebruikt — bijvoorbeeld:
