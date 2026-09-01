@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-08",
+  "lastUpdated": "2026-09-01",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -1013,6 +1013,24 @@
         "name": "Impact, effort, skill — hoe kies je wat je bouwt",
         "description": "Three-axis decision framework for AI use cases: impact (value), effort (cost), skill (training). Editorial poster with isometric 3D coordinate system in TwoFeetUp huisstijl.",
         "uploadedAt": "2026-05-04"
+      },
+      {
+        "path": "/images/frameworks/framework_agent_matrix_nl.png",
+        "width": 928,
+        "height": 1152,
+        "language": "nl",
+        "name": "Moet ik er een agent van maken?",
+        "description": "Decision matrix for whether a task should become an AI agent: horizontal axis automatable, vertical axis context and judgement needed. Six quadrants from Just do it to AI Agent plus Company Second Brain. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-09-01"
+      },
+      {
+        "path": "/images/frameworks/framework_agent_matrix_en.png",
+        "width": 928,
+        "height": 1152,
+        "language": "en",
+        "name": "Should I turn this into an agent?",
+        "description": "Decision matrix for whether a task should become an AI agent: horizontal axis automatable, vertical axis context and judgement needed. Six quadrants from Just do it to AI Agent plus Company Second Brain. Editorial poster in TwoFeetUp huisstijl.",
+        "uploadedAt": "2026-09-01"
       }
     ]
   },
