@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-01",
+  "lastUpdated": "2026-09-10",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -581,6 +581,14 @@
         "height": 4125,
         "name": "Tegeltje Passoen",
         "description": "Bedanktegeltje van Passoen"
+      },
+      {
+        "path": "/images/media/Tegeltje_Gespreksvoering_Sociaal_Domein.png",
+        "width": 4125,
+        "height": 4125,
+        "name": "Tegeltje Gespreksvoering Sociaal Domein",
+        "uploadedAt": "2026-09-10",
+        "description": "Bedanktegeltje van Joyce Bakker (Gespreksvoering Sociaal Domein), quote van haar AI Pitstop-sessie op 9 september 2026"
       },
       {
         "path": "/images/media/Tegeltje_Thomas_Damen.png",
