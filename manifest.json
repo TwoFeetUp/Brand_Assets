@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-10",
+  "lastUpdated": "2026-11-13",
   "baseUrl": "https://twofeetup.github.io/Brand_Assets",
   "brand": {
     "name": "TwoFeetUp",
@@ -249,6 +249,16 @@
         "status": "active",
         "description": "AI Trainer & Consultant bij TwoFeetUp.",
         "linkedin": "https://www.linkedin.com/in/wilfred-van-kampen-497b4a7/"
+      },
+      {
+        "path": "/images/employees/ThomasRunhart.png",
+        "width": 500,
+        "height": 500,
+        "name": "Thomas Runhart",
+        "role": "Sales",
+        "status": "active",
+        "description": "Sales bij TwoFeetUp. Leidt onder meer het Rainmen AI-vragenuur. Niet te verwarren met Thomas Damen (Thomas.png).",
+        "uploadedAt": "2026-11-13"
       },
       {
         "path": "/images/employees/_archive/Fahim.png",
