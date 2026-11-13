@@ -196,15 +196,6 @@
         "description": "Strategische koers, deals, externe relaties, spreker"
       },
       {
-        "path": "/images/employees/Thomas.png",
-        "width": 500,
-        "height": 500,
-        "name": "Thomas Damen",
-        "role": "COO",
-        "status": "active",
-        "description": "Operationele aansturing, project delivery, remote vanuit USA"
-      },
-      {
         "path": "/images/employees/Sjoerd.png",
         "width": 500,
         "height": 500,
@@ -257,7 +248,7 @@
         "name": "Thomas Runhart",
         "role": "Sales",
         "status": "active",
-        "description": "Sales bij TwoFeetUp. Leidt onder meer het Rainmen AI-vragenuur. Niet te verwarren met Thomas Damen (Thomas.png).",
+        "description": "Sales bij TwoFeetUp. Leidt onder meer het Rainmen AI-vragenuur. Niet te verwarren met oud-collega Thomas Damen (gearchiveerd).",
         "uploadedAt": "2026-11-13"
       },
       {
@@ -286,6 +277,15 @@
         "role": "Gast (VR Nederland)",
         "status": "archived",
         "description": "Geen TwoFeetUp-medewerker. VR Nederland, eenmalig ingevlogen voor een AI-workshop. Gearchiveerd 2026-07-17."
+      },
+      {
+        "path": "/images/employees/_archive/Thomas.png",
+        "width": 500,
+        "height": 500,
+        "name": "Thomas Damen",
+        "role": "COO",
+        "status": "archived",
+        "description": "Voormalig COO. Niet meer werkzaam bij TwoFeetUp sinds begin september 2026. Gearchiveerd 2026-11-13."
       }
     ],
     "banners": [
