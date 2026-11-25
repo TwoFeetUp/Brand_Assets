@@ -1,0 +1,19 @@
+name: agents-md-parity
+# CLAUDE.md (Claude Code) and AGENTS.md (Codex) must stay identical, folder by folder.
+on:
+  pull_request:
+    paths: ["CLAUDE.md", "AGENTS.md", "**/CLAUDE.md", "**/AGENTS.md", ".github/workflows/agents-md-parity.yml", ".github/scripts/check-agents-md-parity.sh"]
+  push:
+    branches: [main, master]
+    paths: ["CLAUDE.md", "AGENTS.md", "**/CLAUDE.md", "**/AGENTS.md", ".github/workflows/agents-md-parity.yml", ".github/scripts/check-agents-md-parity.sh"]
+permissions:
+  contents: read
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: bash .github/scripts/check-agents-md-parity.sh
