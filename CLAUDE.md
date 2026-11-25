@@ -1,5 +1,7 @@
 # Brand Assets — TwoFeetUp
 
+CLAUDE.md and AGENTS.md in this directory are identical; edit both together.
+
 ## ⚠️ Public repo — alle bestanden staan online
 
 Dit is een **publieke** repository. Alle bestanden zijn direct zichtbaar en downloadbaar op het internet via GitHub Pages.
